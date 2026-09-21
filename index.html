@@ -1,1308 +1,421 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-53RDDNWJ');</script>
-<!-- End Google Tag Manager -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>轉職＆求職計畫｜排隊名單｜微光前行</title>
-<meta name="description" content="加入微光前行轉職＆求職計畫排隊名單，下一次開放報名時優先收到通知。">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>微光前行 Content Studio — v10</title>
 <style>
-:root{
-  --ink:#33302A; --ink-soft:#736C60; --sand:#F5EFE0; --sand-deep:#EDE3CB;
-  --mist:#D6E4F0; --rose:#E8D5C4; --clay:#B8734F; --clay-deep:#9A5D3D;
-  --dusk-1:#242A44; --dusk-2:#5B4E72; --dawn:#E4B48E; --paper:#FDFBF5;
-  --line:rgba(51,48,42,.12); --shadow:0 14px 36px rgba(43,35,27,.10);
-}
-*{box-sizing:border-box} html{scroll-behavior:smooth}
-body{margin:0;background:var(--sand);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,'Noto Sans TC',sans-serif;line-height:1.85;font-weight:300;padding-bottom:78px;-webkit-font-smoothing:antialiased}
-h1,h2,h3{font-family:'Noto Serif TC',serif;margin:0;color:var(--ink);letter-spacing:.01em}
-a{color:inherit;text-decoration:none}
-.wrap{max-width:980px;margin:0 auto;padding:0 28px}
-.hero{background:linear-gradient(145deg,var(--dusk-1) 0%,var(--dusk-2) 56%,var(--dawn) 130%);color:#fff;padding:58px 0 54px;position:relative;overflow:hidden}
-.hero:after{content:'';position:absolute;width:420px;height:420px;border-radius:50%;background:rgba(255,255,255,.07);right:-140px;top:-190px}
-.hero-inner{position:relative;z-index:1;text-align:center;max-width:760px;margin:0 auto}
-.logo{width:90px;height:90px;border-radius:24px;object-fit:cover;box-shadow:0 14px 36px rgba(0,0,0,.22);margin-bottom:20px}
-.kicker{font-size:12px;letter-spacing:.18em;font-weight:500;opacity:.8;margin-bottom:12px}
-.hero h1{color:#fff;font-size:44px;line-height:1.25;margin-bottom:18px}
-.hero p{font-size:18px;line-height:1.8;margin:0 auto 26px;max-width:640px;color:rgba(255,255,255,.88)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:15px 28px;border-radius:12px;background:var(--clay);color:#fff;font-weight:700;box-shadow:0 10px 24px rgba(72,41,23,.28);transition:.2s ease}
-.hero-note{margin-top:14px;font-size:13px;color:rgba(255,255,255,.72)}
-.section{padding:68px 0}
-.section-title{text-align:center;font-size:28px;margin-bottom:12px}
-.section-sub{text-align:center;color:var(--ink-soft);max-width:640px;margin:0 auto 34px}
-.service-card{max-width:740px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:38px;box-shadow:var(--shadow)}
-.service-icon{font-size:34px;margin-bottom:12px}
-.service-card h2{font-size:28px;margin-bottom:12px}
-.service-card p{color:var(--ink-soft);margin:0 0 24px;font-size:17px}
-.points{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0 30px}
-.point{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 16px}
-.point strong{display:block;font-size:15px;margin-bottom:5px}
-.point span{font-size:13px;color:var(--ink-soft);line-height:1.6;display:block}
-.plan-extra{margin:34px 0 30px;padding-top:30px;border-top:1px solid var(--line)}
-.plan-extra h3{font-family:'Noto Serif TC',serif;font-size:21px;margin:0 0 18px;color:var(--ink)}
-.plan-extra-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-.plan-extra-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px 20px;box-shadow:0 8px 22px rgba(51,48,42,.05)}
-.plan-extra-card strong{display:block;font-size:16px;margin-bottom:9px;color:var(--ink)}
-.plan-extra-card span{display:block;font-size:13.5px;line-height:1.8;color:var(--ink-soft)}
-.center{text-align:center}
-.waitlist-info{background:linear-gradient(180deg,#fff 0%,#F8F4EA 100%);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.info-box{max-width:760px;margin:0 auto;text-align:center}
-.info-box h2{font-size:28px;margin-bottom:14px}
-.info-box p{color:var(--ink-soft);margin:0 auto 24px;max-width:620px}
-.soft-note{display:inline-block;background:var(--rose);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:500;color:#684838}
-.launch{padding:66px 0 78px}
-.launch-card{max-width:760px;margin:0 auto;background:linear-gradient(145deg,var(--dusk-1),var(--dusk-2));color:#fff;border-radius:24px;padding:36px 30px;text-align:center;box-shadow:0 18px 42px rgba(36,42,68,.24)}
-.launch-card h2{color:#fff;font-size:26px;margin-bottom:8px}
-.launch-date{font-family:'Noto Serif TC',serif;font-size:24px;font-weight:700;margin-bottom:24px}
-.countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;max-width:560px;margin:0 auto}
-.time{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);border-radius:16px;padding:18px 8px}
-.num{display:block;font-size:28px;font-weight:700;line-height:1.1}
-.lab{font-size:11px;letter-spacing:.12em;opacity:.72}
-.launch-note{margin:20px 0 0;font-size:13px;opacity:.74}
-footer{text-align:center;padding:28px;color:var(--ink-soft);font-size:13px}
-.sticky{position:fixed;left:0;right:0;bottom:0;background:rgba(253,251,245,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:10px 18px;z-index:20}
-.sticky-inner{max-width:980px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px}
-.sticky-copy strong{display:block;font-size:14px} .sticky-copy span{display:block;font-size:12px;color:var(--ink-soft)}
-.sticky .btn{padding:11px 20px;white-space:nowrap}
-/* Responsive behavior */
-@media (hover:hover) and (pointer:fine){
-  }
-@media(max-width:900px){
-  .wrap{max-width:780px;padding:0 24px}
-  .hero{padding:52px 0 48px}
-  .hero h1{font-size:40px}
-  .service-card,.info-box,.launch-card{max-width:720px}
-  .points{gap:12px}
-}
-@media(max-width:720px){
-  body{padding-bottom:calc(82px + env(safe-area-inset-bottom))}
-  .wrap{padding:0 18px}
-  .hero{padding:38px 0 36px}
-  .hero:after{width:300px;height:300px;right:-150px;top:-130px}
-  .logo{width:76px;height:76px;border-radius:19px;margin-bottom:16px}
-  .kicker{font-size:11px;letter-spacing:.14em;margin-bottom:10px}
-  .hero h1{font-size:32px;line-height:1.3;margin-bottom:14px}
-  .hero p{font-size:15px;line-height:1.75;margin-bottom:22px;max-width:34em}
-  .hero .btn{width:100%;max-width:420px;padding:14px 20px}
-  .hero-note{font-size:12px;line-height:1.6;margin-top:12px}
+:root{--bg:#f3eee6;--paper:#fffdf9;--ink:#292722;--muted:#7b756c;--line:#ded5c9;--green:#404b3d;--soft:#e8ece5}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC",sans-serif}
+button,input,textarea,select{font:inherit}button{cursor:pointer}.app{display:grid;grid-template-columns:260px 1fr;min-height:100vh}
+aside{position:sticky;top:0;height:100vh;padding:30px 20px;background:#f9f5ef;border-right:1px solid var(--line)}
+.logo{font:22px/1.3 Georgia,"Noto Serif TC",serif;margin:0 10px 34px}.logo small{display:block;font:10px sans-serif;letter-spacing:.2em;color:var(--muted);margin-top:9px}
+.group{font-size:10px;letter-spacing:.18em;color:#9a9388;margin:22px 12px 7px}nav button{width:100%;border:0;background:none;text-align:left;padding:12px;border-radius:12px;color:#69645d}nav button.active{background:var(--green);color:white}
+main{padding:48px 5vw 90px;max-width:1500px}.page{display:none}.page.active{display:block}.eyebrow{font-size:12px;letter-spacing:.2em;color:#918a80}
+h1{font:50px/1.08 Georgia,"Noto Serif TC",serif;margin:14px 0}.lead{color:var(--muted);line-height:1.75;max-width:920px}
+.card,.idea{background:#fffaf5b8;border:1px solid var(--line);border-radius:24px;padding:26px;margin-top:24px}.idea{background:var(--paper);border-radius:18px}
+label{font-weight:700;display:block;margin:0 0 10px}.field,textarea,select{width:100%;border:1px solid var(--line);border-radius:14px;background:white;padding:13px 15px;outline:none}textarea{min-height:160px;line-height:1.6;resize:vertical}
+.actions,.channels,.tags,.tabs{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.actions{margin-top:20px}.btn,.channel,.tab,.chip{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:10px 15px}.primary,.channel.selected,.tab.active{background:var(--green);color:white;border-color:var(--green)}.hint{color:var(--muted);font-size:13px}.tabs{margin:24px 0}.pane{display:none}.pane.active{display:block}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.feature{border:1px solid var(--line);border-radius:20px;padding:20px;background:#faf7f1}.feature h3{margin:0 0 8px;font:21px Georgia,serif}
+.toolbar{display:flex;gap:10px;align-items:center;margin:25px 0}.toolbar .grow{flex:1}.calendar-head{display:grid;grid-template-columns:repeat(7,1fr);margin-top:18px}.calendar-head div{text-align:center;color:var(--muted);font-size:12px;padding:8px}
+.calendar{display:grid;grid-template-columns:repeat(7,1fr);border-left:1px solid var(--line);border-top:1px solid var(--line)}.day{min-height:125px;padding:9px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff9f455;position:relative}.day.out{opacity:.35}.daynum{font-size:12px;color:var(--muted)}.addday{position:absolute;right:7px;top:5px;border:0;background:none;font-size:18px;color:#999}.event{margin-top:8px;padding:8px;border-radius:9px;background:var(--soft);font-size:11px;line-height:1.4;cursor:pointer}
+.list{border-top:1px solid var(--line);margin-top:18px}.item{padding:18px 2px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:start}.item-main{min-width:0}.item-main b{display:block;margin:4px 0 7px;font-size:17px;line-height:1.4}.item-desc{display:block;line-height:1.65;color:#625d55;margin-bottom:10px;overflow-wrap:anywhere}.item-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.item-action{white-space:nowrap}.badge{font-size:12px;background:#eee7dd;border-radius:999px;padding:7px 10px;height:max-content}
+.modal,.drawerback{position:fixed;inset:0;background:#29272255;display:none;z-index:30}.modal.open,.drawerback.open{display:flex}.modal{align-items:center;justify-content:center;padding:20px}.modalbox{width:min(620px,100%);max-height:90vh;overflow:auto;background:var(--paper);border-radius:24px;padding:26px}.drawerback{justify-content:flex-end}.drawer{width:min(520px,92vw);height:100%;overflow:auto;background:var(--paper);padding:30px;box-shadow:-20px 0 60px #29272222}.x{float:right;border:1px solid var(--line);background:white;border-radius:50%;width:40px;height:40px}
+.tagbox{min-height:50px;border:1px solid var(--line);border-radius:13px;background:white;padding:7px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}.tagbox input{border:0;outline:0;flex:1;min-width:140px;padding:7px}.tagtoken{background:var(--soft);border-radius:999px;padding:6px 9px;font-size:12px}.tagtoken button{border:0;background:none}.suggest{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 18px}.suggest button{border:1px solid var(--line);background:white;border-radius:999px;padding:6px 9px;font-size:12px}.prompt{white-space:pre-wrap;background:#f3eee6;border-radius:16px;padding:18px;line-height:1.55;font-size:13px;max-height:420px;overflow:auto}
+.notice{padding:17px;background:var(--soft);border-radius:15px;line-height:1.65}.hidden{display:none}
+@media(max-width:900px){.item{grid-template-columns:1fr}.item-action{white-space:normal}.app{grid-template-columns:1fr}aside{height:auto;position:static}.group{display:none}nav{display:flex;flex-wrap:wrap}nav button{width:auto}main{padding:32px 18px}.grid3{grid-template-columns:1fr}.calendar{grid-template-columns:repeat(2,1fr)}.calendar-head{display:none}h1{font-size:38px}}
 
-  .section{padding:46px 0}
-  .section-title,.service-card h2,.info-box h2{font-size:23px;line-height:1.45}
-  .section-sub{font-size:15px;line-height:1.75;margin-bottom:26px}
-  .service-card{padding:26px 20px;border-radius:20px}
-  .service-icon{font-size:30px;margin-bottom:8px}
-  .service-card p{font-size:15px;line-height:1.8;margin-bottom:20px}
-  .points{grid-template-columns:1fr;gap:10px;margin:20px 0 24px}
-  .point{padding:15px 16px;border-radius:14px}
-  .point strong{font-size:14px}
-  .point span{font-size:13px}
-  .plan-extra{margin:28px 0 24px;padding-top:24px}
-  .plan-extra h3{font-size:19px;line-height:1.5;margin-bottom:14px}
-  .plan-extra-grid{grid-template-columns:1fr;gap:10px}
-  .plan-extra-card{padding:17px 16px;border-radius:14px}
-  .plan-extra-card strong{font-size:14.5px}
-  .plan-extra-card span{font-size:13px}
-  .service-card .center .btn{width:100%;padding:14px 20px}
+.synth-toolbar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;margin:18px 0}
+.synth-types{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}
+.synth-types button.active{background:var(--green);color:#fff;border-color:var(--green)}
+.selected-box{background:var(--soft);border-radius:16px;padding:15px 17px;margin:15px 0;display:none}
+.selected-box.show{display:block}.selected-chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}
+.selected-chip{background:white;border:1px solid var(--line);border-radius:999px;padding:7px 10px;font-size:12px}
+.selected-chip button{border:0;background:none;margin-left:5px}.count-note{font-size:12px;color:var(--muted)}
+.synth-row{padding:16px 2px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start}
+.synth-row input{margin-top:5px}.synth-title{font-weight:700;line-height:1.45}.synth-meta{font-size:12px;color:var(--muted);margin-top:5px}
 
-  .info-box p{font-size:15px;line-height:1.8;margin-bottom:20px}
-  .soft-note{display:block;width:100%;padding:9px 12px;line-height:1.55}
-
-  .launch{padding:48px 0 58px}
-  .launch-card{padding:28px 16px;border-radius:20px}
-  .launch-card h2{font-size:22px}
-  .launch-date{font-size:18px;line-height:1.5;margin-bottom:20px}
-  .countdown{grid-template-columns:repeat(2,1fr);gap:9px;max-width:360px}
-  .time{padding:14px 8px;border-radius:14px}
-  .num{font-size:24px}
-  .lab{font-size:9px}
-  .launch-note{margin-top:16px}
-
-  footer{padding:24px 20px 28px;line-height:1.7}
-  .sticky{padding:9px 12px calc(9px + env(safe-area-inset-bottom));}
-  .sticky-inner{gap:10px}
-  .sticky-copy{min-width:0;flex:1}
-  .sticky-copy strong{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .sticky-copy span{display:none}
-  .sticky .btn{font-size:14px;padding:11px 15px;border-radius:10px;white-space:nowrap;box-shadow:none}
-}
-@media(max-width:380px){
-  .hero h1{font-size:29px}
-  .wrap{padding:0 15px}
-  .sticky-copy strong{font-size:12px}
-  .sticky .btn{padding:10px 12px;font-size:13px}
-}
-
-/* V4 testimonial + warm-up refinements */
-.hero h1{max-width:760px;margin-left:auto;margin-right:auto}
-.hero .hero-slogan{font-family:"Noto Serif TC",serif;font-size:clamp(1.18rem,2vw,1.48rem);font-weight:700;line-height:1.75;max-width:720px;margin:18px auto 10px;color:#fff}
-.hero .hero-desc{max-width:650px;margin:0 auto 24px;color:rgba(255,255,255,.84);line-height:1.9}
-.testimonials{background:var(--paper);padding:84px 20px}
-.testimonial-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px;align-items:stretch}
-.testimonial-card{background:#fff;border:1px solid rgba(51,48,42,.10);border-radius:22px;padding:26px 24px;box-shadow:0 12px 35px rgba(51,48,42,.06);display:flex;flex-direction:column}
-.testimonial-label{font-size:.78rem;letter-spacing:.08em;color:var(--clay);font-weight:400;margin-bottom:14px}
-.testimonial-person{display:flex;align-items:center;gap:11px;margin-bottom:16px}
-.testimonial-avatar{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--sand);font-size:1.45rem;flex:0 0 auto}
-.testimonial-name{font-weight:800;color:var(--ink);line-height:1.35}
-.testimonial-industry{font-size:.82rem;color:var(--ink-soft);margin-top:2px}
-.testimonial-quote{font-weight:400;font-family:"Noto Serif TC",serif;font-size:1.08rem;line-height:1.8;font-weight:700;color:var(--ink);margin:0 0 14px}
-.testimonial-context{font-size:.92rem;line-height:1.8;color:var(--ink-soft);margin-top:auto}
-.testimonial-foot{text-align:center;margin-top:26px;color:var(--ink-soft);font-size:.88rem}
-@media(max-width:800px){.testimonials{padding:62px 18px}.testimonial-grid{grid-template-columns:1fr;gap:14px;margin-top:26px}.testimonial-card{padding:22px 20px}.hero .hero-slogan{font-size:1.12rem}.hero .hero-desc{font-size:.94rem}}
-
-/* V5 first-session prerequisite */
-.first-session{background:linear-gradient(180deg,#F8F4EA 0%,#FDFBF5 100%);padding:84px 20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.first-session-wrap{max-width:900px;margin:0 auto}
-.first-session-kicker{text-align:center;color:var(--clay);font-weight:800;letter-spacing:.08em;font-size:.82rem;margin-bottom:10px}
-.first-session-title{text-align:center;font-size:30px;line-height:1.45;margin:0 0 12px}
-.first-session-sub{text-align:center;color:var(--ink-soft);max-width:680px;margin:0 auto 30px;line-height:1.9}
-.first-session-panel{background:linear-gradient(145deg,var(--dusk-1),var(--dusk-2));border-radius:26px;padding:34px;box-shadow:0 18px 42px rgba(36,42,68,.18);color:#fff}
-.first-session-head{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:26px}
-.first-session-head h3{color:#fff;font-size:25px;margin:0 0 8px}
-.first-session-head p{margin:0;color:rgba(255,255,255,.78);line-height:1.75}
-.session-badge{flex:0 0 auto;border:1px solid rgba(255,255,255,.24);background:rgba(255,255,255,.09);border-radius:999px;padding:8px 13px;font-size:.78rem;font-weight:800;white-space:nowrap}
-.session-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.session-item{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.13);border-radius:18px;padding:20px 18px;backdrop-filter:blur(4px)}
-.session-item .num{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--dawn);color:var(--dusk-1);font-weight:900;margin-bottom:14px}
-.session-item strong{display:block;font-size:1rem;line-height:1.55;margin-bottom:7px}
-.session-item span{display:block;font-size:.88rem;line-height:1.7;color:rgba(255,255,255,.75)}
-.first-session-note{text-align:center;margin:22px auto 0;color:var(--ink-soft);font-size:.88rem;line-height:1.8;max-width:690px}
-@media(max-width:800px){.first-session{padding:62px 18px}.first-session-title{font-size:23px}.first-session-sub{font-size:.94rem;margin-bottom:24px}.first-session-panel{padding:24px 18px;border-radius:20px}.first-session-head{display:block;margin-bottom:20px}.first-session-head h3{font-size:21px}.session-badge{display:inline-block;margin-top:14px}.session-grid{grid-template-columns:1fr;gap:10px}.session-item{padding:18px 16px}.first-session-note{font-size:.84rem}}
-
-.waitlist-station{
-  padding:82px 24px 96px;
-  text-align:center;
-  background:linear-gradient(180deg,var(--paper) 0%,#f5eee3 100%);
-  border-top:1px solid var(--line);
-}
-.waitlist-station .station-inner{max-width:900px;margin:0 auto}
-.waitlist-station .station-kicker{
-  font-size:13px;letter-spacing:.16em;color:var(--clay);font-weight:700;margin-bottom:14px
-}
-.waitlist-station h2{
-  font-family:'Noto Serif TC',serif;
-  font-size:clamp(30px,4vw,46px);
-  line-height:1.35;margin:0 0 16px;color:var(--ink)
-}
-.waitlist-station .station-copy{
-  max-width:660px;margin:0 auto 30px;color:var(--ink-soft);
-  font-size:16px;line-height:1.9
-}
-.waitlist-station .station-status{
-  display:inline-flex;align-items:center;gap:8px;
-  margin-bottom:26px;padding:9px 16px;border-radius:999px;
-  background:var(--sand);color:var(--ink-soft);font-size:13px
-}
-.waitlist-station .station-status::before{
-  content:"";width:8px;height:8px;border-radius:50%;background:var(--clay)
-}
-.waitlist-station .station-btn{
-  display:inline-flex;align-items:center;justify-content:center;
-  min-width:300px;padding:18px 30px;border-radius:16px;
-  background:var(--clay);color:#fff;text-decoration:none;font-weight:800;
-  font-size:17px;box-shadow:0 12px 30px rgba(184,115,79,.22);
-  transition:transform .2s ease,box-shadow .2s ease
-}
-.waitlist-station .station-btn:hover{
-  transform:translateY(-2px);box-shadow:0 16px 34px rgba(184,115,79,.28)
-}
-.waitlist-station .station-note{
-  margin-top:15px;font-size:12.5px;color:var(--ink-soft)
-}
-@media(max-width:767px){
-  .waitlist-station{padding:58px 20px 72px}
-  .waitlist-station h2{font-size:29px}
-  .waitlist-station .station-copy{font-size:14px;line-height:1.8;margin-bottom:24px}
-  .waitlist-station .station-btn{width:100%;min-width:0;padding:16px 20px}
-}
+/* v8 Brand Brain */
+.brain-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:26px}.brain-card{background:var(--card,#fff);border:1px solid #e5dfd3;border-radius:18px;padding:20px}.brain-card.wide{grid-column:1/-1}.brain-card h3{margin:0 0 6px;font:600 19px Georgia,serif}.brain-card .brain-meta{font-size:12px;color:#8b8175;margin-bottom:14px}.brain-card textarea{width:100%;min-height:180px;resize:vertical;border:1px solid #ded7ca;border-radius:12px;padding:13px;background:#fffdf9;color:#302c28;line-height:1.7}.brain-card.wide textarea{min-height:220px}.brain-savebar{position:sticky;bottom:18px;display:flex;align-items:center;gap:12px;justify-content:flex-end;margin-top:18px;padding:12px 14px;background:rgba(250,247,240,.94);backdrop-filter:blur(10px);border:1px solid #e5dfd3;border-radius:16px;z-index:4}.save-state{font-size:12px;color:#7d7469}.brain-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0 4px}.brain-tab{border:1px solid #ded7ca;background:#fffdf9;border-radius:999px;padding:9px 14px;cursor:pointer}.brain-tab.active{background:#302c28;color:#fff;border-color:#302c28}.brain-panel{display:none}.brain-panel.active{display:block}.os-editor{margin-top:18px}.os-editor select{max-width:260px}.brain-note{padding:14px 16px;border-radius:14px;background:#f2eee5;color:#62594f;font-size:13px;line-height:1.7;margin-top:16px}@media(max-width:760px){.brain-grid{grid-template-columns:1fr}.brain-card.wide{grid-column:auto}.brain-savebar{justify-content:stretch;flex-wrap:wrap}.brain-savebar .btn{flex:1}}
 
 
-/* Testimonials: all copy uses regular weight */
-.testimonials .testimonial-card,
-.testimonials .testimonial-card p,
-.testimonials .testimonial-quote,
-.testimonials .testimonial-label,
-.testimonials .testimonial-context,
-.testimonials .testimonial-industry,
-.testimonials .testimonial-name,
-.testimonials .testimonial-card strong,
-.testimonials .testimonial-card b {
-  font-weight: 400 !important;
-}
+/* v10 Dark + Hot Pink visual refresh */
+:root{--bg:#0d0b12;--paper:#18141f;--ink:#f7f2f8;--muted:#a99eae;--line:#342b3d;--green:#D8A07C;--soft:#251b2a;--pink:#D8A07C;--pink2:#E8B99C;--panel:#151119}
+body{background:radial-gradient(circle at 82% 3%,rgba(216,160,124,.10),transparent 25%),radial-gradient(circle at 15% 90%,rgba(216,160,124,.06),transparent 30%),var(--bg);color:var(--ink)}
+aside{background:#100d14;border-right-color:var(--line)}
+.logo{color:#fff}.logo small,.group,.eyebrow{color:#c59caf}.group{opacity:.72}
+nav button{color:#bdb2c2;transition:.18s ease}nav button:hover{background:#1d1722;color:#fff}nav button.active{background:linear-gradient(135deg,var(--pink),#B97855);color:#fff;box-shadow:0 8px 28px rgba(216,160,124,.22)}
+h1{color:#fff}.lead,.hint,.count-note,.synth-meta,.save-state{color:var(--muted)}
+.card,.idea,.feature,.brain-card{background:rgba(24,20,31,.92)!important;border-color:var(--line)!important;box-shadow:0 18px 55px rgba(0,0,0,.18)}
+.idea{background:#17131c!important}.feature{background:#17131c!important}.feature h3,.brain-card h3{color:#fff}
+.field,textarea,select,.tagbox{background:#100d14!important;color:#f7f2f8!important;border-color:#403449!important}.field::placeholder,textarea::placeholder{color:#756b7b}.field:focus,textarea:focus,select:focus{border-color:var(--pink)!important;box-shadow:0 0 0 3px rgba(216,160,124,.10)}
+.btn,.channel,.tab,.chip,.brain-tab,.suggest button{background:#18141f;color:#d9cedd;border-color:#3b3043}.btn:hover,.channel:hover,.tab:hover,.brain-tab:hover{border-color:#8A624E;color:#fff}.primary,.channel.selected,.tab.active,.brain-tab.active,.synth-types button.active{background:linear-gradient(135deg,var(--pink),#C88763)!important;color:#fff!important;border-color:transparent!important;box-shadow:0 8px 24px rgba(216,160,124,.20)}
+.badge,.tagtoken,.event{background:#2A211D;color:#F0C6AA}.tagtoken button{color:#F0C6AA}.suggest button{background:#17131c}
+.notice,.selected-box,.brain-note{background:#211822!important;color:#d7cbd9!important}.selected-chip{background:#130f17;border-color:var(--line);color:#e9dfea}
+.list,.item,.synth-row{border-color:var(--line)}.item-desc{color:#aaa0ae}.item-main b,.synth-title{color:#f7f2f8}
+.calendar{border-color:var(--line)}.calendar-head div,.daynum{color:#918696}.day{background:#141019;border-color:var(--line)}.day.out{opacity:.25}.addday{color:var(--pink)}.event{border-left:2px solid var(--pink)}
+.modal,.drawerback{background:#050407aa}.modalbox,.drawer{background:#151119;color:var(--ink);border:1px solid var(--line)}.x{background:#201923;color:#fff;border-color:var(--line)}
+.prompt{background:#0f0c13;color:#e9dfea;border:1px solid #352a3d}.prompt::selection{background:var(--pink);color:#fff}
+.brain-card .brain-meta{color:#9d91a2}.brain-card textarea{background:#100d14!important;color:#f7f2f8!important;border-color:#403449!important}.brain-savebar{background:rgba(16,13,20,.94);border-color:var(--line);box-shadow:0 12px 40px rgba(0,0,0,.25)}
+.brain-tab{background:#18141f}.os-editor select{background:#100d14;color:#fff}
+label{color:#f2eaf4}.toolbar #monthTitle{color:#fff}
+::selection{background:var(--pink);color:#fff}::-webkit-scrollbar{width:10px;height:10px}::-webkit-scrollbar-track{background:#0d0b12}::-webkit-scrollbar-thumb{background:#44342C;border-radius:99px}::-webkit-scrollbar-thumb:hover{background:#765442}
+@media(max-width:900px){aside{border-bottom:1px solid var(--line);border-right:0}}
 
+</style></head><body>
+<div class="app"><aside><div class="logo">微光前行<br>Content Studio<small>SHARON'S CONTENT OS</small></div><nav>
+<div class="group">CREATE</div><button class="active" data-page="start">💡 START</button>
+<div class="group">CONTENT</div><button data-page="pool">✨ CONTENT POOL</button><button data-page="calendar">🗓️ CONTENT CALENDAR</button><button data-page="library">📚 LIBRARY</button>
+<div class="group">BRAIN</div><button data-page="insight">🧠 INSIGHT MAP</button><button data-page="research">🔎 AI RESEARCH</button>
+<div class="group">SYSTEM</div><button data-page="brain">💗 BRAND BRAIN</button><button data-page="backup">☁️ BACKUP</button>
+</nav></aside><main>
 
-/* ===== Coach intro ===== */
-.coach-intro{
-  padding:82px 0;
-  background:var(--sand);
-}
-.coach-intro .coach-wrap{
-  max-width:1080px;
-  margin:0 auto;
-  padding:0 32px;
-  display:grid;
-  grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);
-  gap:52px;
-  align-items:start;
-}
-.coach-photo{
-  width:100%;
-  aspect-ratio:4/5;
-  object-fit:cover;
-  border-radius:28px;
-  box-shadow:0 18px 44px rgba(51,48,42,.10);
-  display:block;
-}
-.coach-copy h2{
-  font-family:'Noto Serif TC',serif;
-  font-size:31px;
-  line-height:1.45;
-  margin:0 0 24px;
-  color:var(--ink);
-}
-.coach-stats{
-  display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:10px;
-  margin:0 0 28px;
-}
-.coach-stat{
-  background:#fff;
-  border:1px solid var(--line);
-  border-radius:18px;
-  padding:17px 12px;
-  text-align:center;
-}
-.coach-stat .big{
-  display:block;
-  color:var(--clay);
-  font-family:'Noto Serif TC',serif;
-  font-size:21px;
-  line-height:1.35;
-  margin-bottom:4px;
-}
-.coach-stat .small{
-  display:block;
-  color:var(--ink-soft);
-  font-size:11.5px;
-  line-height:1.55;
-}
-.coach-copy p{
-  margin:0 0 16px;
-  color:var(--ink-soft);
-  font-size:14.5px;
-  line-height:1.95;
-}
-.coach-copy .coach-em{
-  color:var(--clay-deep);
-}
+<section id="start" class="page active"><div class="eyebrow">CREATE · START</div><h1>開始一則內容。</h1><p class="lead">想到什麼就丟進來。你自己選媒介，網站負責把 Brand Brain、Channel OS 與素材組成一份可以直接貼回 ChatGPT 的工作指令。</p>
+<div class="card"><label>想到的內容</label><textarea id="startRaw" placeholder="一句觀察、一段故事、一個問題都可以……"></textarea>
+<div class="actions"><button class="btn" onclick="voiceDemo()">🎙 語音輸入</button><button class="btn" onclick="goLibrary()">＋ 從 Library 帶入</button></div>
+<div style="margin-top:24px"><label>想做成</label><div class="channels" id="startChannels"></div></div>
+<div class="actions"><button class="btn primary" onclick="makeStartPrompt()">生成專屬 ChatGPT 指令 →</button></div></div></section>
 
-/* ===== Testimonial layout refinements ===== */
-.testimonials{
-  overflow:hidden;
-}
-.testimonials .section-title{
-  margin-bottom:28px;
-}
-.testimonial-card{
-  min-width:0;
-}
-
-/* ===== Final waitlist / launch station ===== */
-.waitlist-station{
-  padding:82px 24px 96px;
-  text-align:center;
-  background:linear-gradient(180deg,var(--paper) 0%,#f4ecdf 100%);
-  border-top:1px solid var(--line);
-}
-.waitlist-station .station-inner{
-  max-width:920px;
-  margin:0 auto;
-}
-.waitlist-station .station-kicker{
-  font-size:12px;
-  letter-spacing:.18em;
-  color:var(--clay);
-  margin-bottom:12px;
-}
-.waitlist-station h2{
-  font-family:'Noto Serif TC',serif;
-  font-size:clamp(30px,4vw,46px);
-  line-height:1.35;
-  margin:0 0 12px;
-  color:var(--ink);
-}
-.waitlist-station .station-date{
-  color:var(--ink-soft);
-  font-size:15px;
-  margin-bottom:30px;
-}
-.waitlist-countdown{
-  display:grid;
-  grid-template-columns:repeat(4,minmax(0,1fr));
-  gap:12px;
-  max-width:620px;
-  margin:0 auto 30px;
-}
-.waitlist-time{
-  background:#fff;
-  border:1px solid var(--line);
-  border-radius:18px;
-  padding:18px 10px 14px;
-}
-.waitlist-time .num{
-  display:block;
-  font-family:'Noto Serif TC',serif;
-  font-size:32px;
-  line-height:1.15;
-  color:var(--ink);
-  font-variant-numeric:tabular-nums;
-}
-.waitlist-time .lab{
-  display:block;
-  margin-top:6px;
-  color:var(--ink-soft);
-  font-size:10.5px;
-  letter-spacing:.08em;
-}
-.waitlist-station .station-copy{
-  margin:0 auto 24px;
-  color:var(--ink-soft);
-  font-size:14.5px;
-  line-height:1.9;
-}
-.waitlist-station .station-btn{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  min-width:300px;
-  padding:17px 30px;
-  border-radius:16px;
-  background:var(--clay);
-  color:#fff;
-  text-decoration:none;
-  font-size:16px;
-  font-weight:700;
-  box-shadow:0 12px 30px rgba(184,115,79,.22);
-  transition:transform .2s ease,box-shadow .2s ease;
-}
-.waitlist-station .station-btn:hover{
-  transform:translateY(-2px);
-  box-shadow:0 16px 34px rgba(184,115,79,.28);
-}
-.waitlist-station .station-note{
-  margin-top:13px;
-  color:var(--ink-soft);
-  font-size:12px;
-}
-
-/* ===== Responsive: coach + testimonial slider ===== */
-@media (max-width:1024px){
-  .coach-intro .coach-wrap{
-    gap:34px;
-    padding:0 26px;
-  }
-  .coach-copy h2{font-size:27px;}
-  .coach-stats{grid-template-columns:1fr 1fr;}
-  .coach-stat:nth-child(3){grid-column:1 / -1;}
-}
-
-@media (max-width:767px){
-  .coach-intro{
-    padding:56px 0;
-  }
-  .coach-intro .coach-wrap{
-    grid-template-columns:1fr;
-    gap:24px;
-    padding:0 20px;
-  }
-  .coach-copy h2{
-    font-size:25px;
-    margin-bottom:18px;
-  }
-  .coach-photo{
-    aspect-ratio:4/4.7;
-    border-radius:22px;
-  }
-  .coach-stats{
-    grid-template-columns:1fr 1fr;
-    margin-bottom:22px;
-  }
-  .coach-copy p{
-    font-size:14px;
-    line-height:1.9;
-  }
-
-  .testimonials .wrap{
-    padding-right:0;
-  }
-  .testimonial-grid{
-    display:flex !important;
-    grid-template-columns:none !important;
-    overflow-x:auto;
-    overflow-y:hidden;
-    gap:14px;
-    padding:0 20px 12px 0;
-    scroll-snap-type:x mandatory;
-    -webkit-overflow-scrolling:touch;
-    scrollbar-width:none;
-  }
-  .testimonial-grid::-webkit-scrollbar{display:none;}
-  .testimonial-card{
-    flex:0 0 min(84vw,340px);
-    scroll-snap-align:start;
-    min-height:auto;
-  }
-
-  .waitlist-station{
-    padding:58px 20px 74px;
-  }
-  .waitlist-station h2{
-    font-size:29px;
-  }
-  .waitlist-station .station-date{
-    font-size:13.5px;
-    line-height:1.7;
-  }
-  .waitlist-countdown{
-    grid-template-columns:repeat(2,minmax(0,1fr));
-    gap:10px;
-    margin-bottom:24px;
-  }
-  .waitlist-time{
-    padding:15px 8px 12px;
-  }
-  .waitlist-time .num{
-    font-size:27px;
-  }
-  .waitlist-station .station-btn{
-    width:100%;
-    min-width:0;
-    padding:16px 20px;
-  }
-}
-
-
-/* Mobile testimonial carousel guidance */
-.testimonial-mobile-nav{
-  display:none;
-}
-@media (max-width:767px){
-  .testimonial-mobile-nav{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:10px;
-    padding:8px 20px 0 0;
-    color:var(--ink-soft);
-  }
-  .testimonial-swipe-hint{
-    font-size:12px;
-    letter-spacing:.04em;
-    opacity:.72;
-  }
-  .testimonial-dots{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:7px;
-  }
-  .testimonial-dot{
-    width:7px;
-    height:7px;
-    padding:0;
-    border:0;
-    border-radius:999px;
-    background:rgba(115,108,96,.24);
-    cursor:pointer;
-    transition:width .2s ease, background .2s ease;
-  }
-  .testimonial-dot.is-active{
-    width:19px;
-    background:var(--clay);
-  }
-}
-
-
-/* ===== Pain section ===== */
-.pain-section{
-  padding:82px 0;
-  background:var(--paper);
-}
-.pain-wrap{
-  max-width:1040px;
-}
-.pain-kicker{
-  text-align:center;
-  font-size:12px;
-  letter-spacing:.18em;
-  color:var(--clay);
-  margin-bottom:12px;
-}
-.pain-section h2{
-  margin:0;
-  text-align:center;
-  font-family:'Noto Serif TC',serif;
-  font-size:clamp(27px,3.4vw,40px);
-  line-height:1.45;
-  color:var(--ink);
-}
-.pain-lead{
-  margin:12px auto 34px;
-  text-align:center;
-  color:var(--ink-soft);
-  font-size:16px;
-  line-height:1.8;
-}
-.pain-grid{
-  display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:16px;
-}
-.pain-card{
-  background:var(--sand);
-  border:1px solid var(--line);
-  border-radius:20px;
-  padding:24px 22px;
-}
-.pain-icon{
-  font-size:23px;
-  margin-bottom:12px;
-}
-.pain-card h3{
-  margin:0 0 9px;
-  font-family:'Noto Serif TC',serif;
-  font-size:17px;
-  line-height:1.6;
-  color:var(--ink);
-}
-.pain-card p{
-  margin:0;
-  color:var(--ink-soft);
-  font-size:13.5px;
-  line-height:1.8;
-}
-
-/* Make testimonial carousel guidance clearly visible on mobile */
-@media(max-width:767px){
-  .pain-section{padding:58px 0}
-  .pain-wrap{padding:0 20px}
-  .pain-section h2{font-size:27px;text-align:left}
-  .pain-lead{text-align:left;font-size:14.5px;margin:10px 0 24px}
-  .pain-grid{grid-template-columns:1fr;gap:10px}
-  .pain-card{padding:19px 17px;border-radius:16px}
-
-  .testimonial-mobile-nav{
-    display:flex !important;
-    margin-top:14px;
-    padding:0 20px 0 0;
-  }
-  .testimonial-swipe-hint{
-    font-size:12.5px !important;
-    color:var(--ink-soft) !important;
-    opacity:1 !important;
-  }
-  .testimonial-dots{
-    min-height:20px;
-  }
-  .testimonial-dot{
-    width:8px !important;
-    height:8px !important;
-    background:rgba(115,108,96,.32) !important;
-  }
-  .testimonial-dot.is-active{
-    width:22px !important;
-    background:var(--clay) !important;
-  }
-}
-
-
-/* ===== V25 warm-up architecture refinements ===== */
-main > section{
-  scroll-margin-top:20px;
-}
-main > section + section{
-  border-top:1px solid rgba(51,48,42,.06);
-}
-.section .service-card{
-  max-width:900px;
-}
-.section .service-card > p{
-  max-width:720px;
-}
-.first-session{
-  background:var(--paper);
-}
-.first-session-panel{
-  max-width:760px;
-  margin:0 auto;
-}
-.waitlist-station{
-  border-top:1px solid var(--line);
-}
-@media(max-width:767px){
-  .section .service-card{
-    padding:22px 18px;
-  }
-  .first-session-panel{
-    padding:22px 18px;
-  }
-}
-
-
-/* ===== V26 program + FAQ ===== */
-.program-intro{background:var(--sand)}
-.program-heading{text-align:center;padding-top:76px;margin-bottom:-28px}
-.program-kicker,.faq-kicker{font-size:12px;letter-spacing:.18em;color:var(--clay);margin-bottom:10px}
-.program-heading h2,.faq-section h2{font-size:clamp(29px,3.5vw,40px);line-height:1.4}
-.program-heading p{max-width:660px;margin:12px auto 0;color:var(--ink-soft);font-size:15px;line-height:1.9}
-.program-intro > .section{padding-bottom:34px}
-.program-intro > .first-session{padding-top:34px;border-top:0;background:transparent}
-
-.faq-section{padding:82px 0;background:var(--paper);border-top:1px solid var(--line)}
-.faq-wrap{max-width:900px}
-.faq-kicker{text-align:center}
-.faq-section h2{text-align:center;margin:0}
-.faq-lead{text-align:center;color:var(--ink-soft);margin:10px auto 34px;font-size:14.5px}
-.faq-list{border-top:1px solid var(--line)}
-.faq-item{border-bottom:1px solid var(--line)}
-.faq-item summary{
-  list-style:none;cursor:pointer;padding:23px 4px;
-  display:flex;align-items:center;justify-content:space-between;gap:20px;
-  font-family:'Noto Serif TC',serif;font-size:17px;font-weight:600;color:var(--ink)
-}
-.faq-item summary::-webkit-details-marker{display:none}
-.faq-plus{
-  flex:0 0 auto;width:30px;height:30px;border-radius:50%;
-  display:grid;place-items:center;background:var(--rose);color:var(--clay-deep);
-  font-family:'Noto Sans TC',sans-serif;font-size:18px;transition:transform .2s ease
-}
-.faq-item[open] .faq-plus{transform:rotate(45deg)}
-.faq-answer{padding:0 46px 22px 4px}
-.faq-answer p{margin:0;color:#9a7168;font-size:14.5px;line-height:2}
-.faq-disclaimer{
-  margin-top:42px;padding:28px 30px;border:1px solid var(--line);
-  border-radius:16px;background:#f2eee7;color:var(--ink-soft)
-}
-.faq-disclaimer h3{font-size:17px;margin:0 0 18px;color:var(--ink)}
-.faq-disclaimer ol{margin:0;padding-left:23px}
-.faq-disclaimer li{padding-left:7px;margin-bottom:10px;font-size:13.5px;line-height:1.85}
-.faq-disclaimer li:last-child{margin-bottom:0}
-
-@media(max-width:767px){
-  .program-heading{padding-top:56px;margin-bottom:-18px;text-align:left}
-  .program-kicker{text-align:left}
-  .program-heading h2{font-size:27px}
-  .program-heading p{font-size:14px}
-  .program-intro > .section{padding-bottom:24px}
-  .program-intro > .first-session{padding-top:24px}
-  .faq-section{padding:58px 0}
-  .faq-kicker,.faq-section h2,.faq-lead{text-align:left}
-  .faq-lead{margin-bottom:24px}
-  .faq-item summary{padding:19px 2px;font-size:15.5px;line-height:1.65}
-  .faq-answer{padding:0 36px 20px 2px}
-  .faq-answer p{font-size:13.5px;line-height:1.9}
-  .faq-disclaimer{margin-top:32px;padding:22px 18px}
-  .faq-disclaimer li{font-size:12.8px}
-}
-
-
-/* ===== V27 requested refinements ===== */
-.program-heading{
-  text-align:center;
-  padding-top:68px;
-  margin-bottom:-18px;
-}
-.program-mini-title{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  gap:7px;
-  padding:9px 15px;
-  border-radius:999px;
-  background:rgba(184,115,79,.10);
-  color:var(--clay-deep);
-  font-weight:700;
-  font-size:15px;
-  margin-top:2px;
-}
-.program-heading p{
-  margin-top:15px;
-}
-
-/* Stronger distinction for NEXT COHORT */
-.waitlist-station{
-  background:
-    radial-gradient(circle at 15% 15%, rgba(228,180,142,.20), transparent 32%),
-    linear-gradient(145deg,#F3E2D5 0%,#EAD1BF 48%,#F7EEE5 100%) !important;
-  border-top:1px solid rgba(184,115,79,.18) !important;
-  border-bottom:1px solid rgba(184,115,79,.18);
-}
-.waitlist-station .station-inner{
-  max-width:940px;
-}
-.waitlist-station .station-kicker{
-  color:var(--clay-deep);
-}
-.waitlist-countdown .waitlist-time{
-  background:rgba(255,255,255,.82);
-  border-color:rgba(184,115,79,.18);
-  box-shadow:0 10px 26px rgba(110,73,54,.07);
-}
-.waitlist-station .station-btn{
-  background:var(--clay-deep);
-  box-shadow:0 12px 30px rgba(126,72,43,.24);
-}
-.waitlist-station .station-btn:hover{
-  box-shadow:0 16px 34px rgba(126,72,43,.30);
-}
-
-/* Keep plan incentives visually connected but not overpowering */
-.program-intro .plan-extra{
-  margin-top:30px;
-  padding-top:28px;
-}
-.program-intro .plan-extra h3{
-  margin-bottom:16px;
-}
-.program-intro .plan-extra-card{
-  background:rgba(255,255,255,.78);
-}
-
-@media(max-width:767px){
-  .program-heading{
-    text-align:left;
-    padding-top:54px;
-    margin-bottom:-10px;
-  }
-  .program-mini-title{
-    font-size:14px;
-    padding:8px 12px;
-  }
-  .waitlist-station{
-    background:
-      radial-gradient(circle at 10% 10%, rgba(228,180,142,.22), transparent 34%),
-      linear-gradient(145deg,#F3E2D5 0%,#EAD1BF 55%,#F7EEE5 100%) !important;
-  }
-}
-
-
-/* ===== V28 program markup/layout repair ===== */
-.program-heading{
-  padding-top:68px !important;
-  padding-bottom:28px !important;
-  margin-bottom:0 !important;
-}
-.program-details{
-  padding-top:0 !important;
-  padding-bottom:34px !important;
-}
-.program-details .service-card{
-  margin-top:0;
-}
-.program-intro > .first-session{
-  padding-top:42px !important;
-  margin-top:0 !important;
-}
-@media(max-width:767px){
-  .program-heading{
-    padding-top:54px !important;
-    padding-bottom:22px !important;
-    margin-bottom:0 !important;
-  }
-  .program-details{
-    padding-top:0 !important;
-    padding-bottom:24px !important;
-  }
-  .program-intro > .first-session{
-    padding-top:34px !important;
-  }
-}
-
-
-/* ===== V29 program heading ===== */
-.program-heading h2{
-  margin:0 0 18px;
-  font-family:'Noto Serif TC',serif;
-  font-size:clamp(30px,3.8vw,42px);
-  line-height:1.4;
-  color:var(--ink);
-}
-@media(max-width:767px){
-  .program-heading h2{
-    font-size:28px;
-    margin-bottom:15px;
-  }
-}
-
-
-/* ===== V30 first session content ===== */
-.first-session-content-grid{
-  display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:14px;
-  max-width:900px;
-  margin:30px auto 0;
-}
-.first-content-card{
-  background:#fff;
-  border:1px solid var(--line);
-  border-radius:18px;
-  padding:20px 18px;
-  display:flex;
-  align-items:flex-start;
-  gap:13px;
-  box-shadow:0 8px 24px rgba(51,48,42,.04);
-}
-.first-content-icon{
-  flex:0 0 auto;
-  width:40px;
-  height:40px;
-  border-radius:50%;
-  display:grid;
-  place-items:center;
-  background:var(--rose);
-  font-size:19px;
-}
-.first-content-card strong{
-  display:block;
-  margin:2px 0 6px;
-  color:var(--ink);
-  font-size:15px;
-  line-height:1.55;
-}
-.first-content-card span{
-  display:block;
-  color:var(--ink-soft);
-  font-size:13.5px;
-  line-height:1.8;
-}
-.first-session .first-session-note{
-  display:block;
-  max-width:760px;
-  margin:22px auto 0;
-}
-@media(max-width:767px){
-  .first-session-content-grid{
-    grid-template-columns:1fr;
-    gap:10px;
-    margin-top:24px;
-  }
-  .first-content-card{
-    padding:17px 15px;
-    border-radius:15px;
-  }
-  .first-content-card strong{font-size:14.5px}
-  .first-content-card span{font-size:13px}
-}
-
-</style>
-</head>
-<body>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53RDDNWJ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<header class="hero">
-  <div class="wrap hero-inner">
-    <img class="logo" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QCMRXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAfSgAwAEAAAAAQAAAfQAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAfQB9AMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAAICAgICAgQCAgQGBAQEBggGBgYGCAoICAgICAoMCgoKCgoKDAwMDAwMDAwODg4ODg4QEBAQEBISEhISEhISEhL/2wBDAQMDAwUEBQgEBAgTDQsNExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExP/3QAEACD/2gAMAwEAAhEDEQA/AP2rWnZNMHWnV5p0C5NGTSUUgFyaMmkooAXJoyaSigBcmjJpKKAFyaMmkooAXJoyaSigBcmjJpKKAFyaMmkooAXJoyaSigBcmjJpKKAFyaMmkooAXJoyaSigBcmjJpKKAFyaMmkooAXJoyaSigBcmjJpKKAFyaMmkooAXJoyaSigBeaMmkooAXJoyaSigBcmjJpKKAFyaMmkooAXJoyaSigBcmjJpKKAFyaMmkooAXJoyaSigBcmjJpKKAFyaMmkooAXJoyaSigBcmkNFFAAvTkUvHpQDil3U7gf/9D9qlp1IKWvNOgKKKKQBRRRQAUUUUwCiiikAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRS5NAH/0f2qXrTqatOrzDoCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApMilooATIpaKKACjpRRQAmccUZFLRQAmRRkUtFABRRRQAmRRnFLRQAmRRkUtFAB1ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigBcZowaM4oyaAP//S/apetOpo606vMOgKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAXOKMmj8aPxoA//9P9ql606mrTq8w6AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAEJwKaXFMlbtVbfTAtFwaUOMVVBJp2cUAWd4pQwNVCcUBqQF2imI2RzT6ACiiigAooooAKKKKACiiigAooooAKKKKAHA4pcimUtAH/1P2qWnUxetPrzDoCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooApTtjP0qruwuc80aixXAHes5WYnmnYhyszUQkrkmplYN0qjHJgbaEcA5Bp2Fzl1+BmgD0NUZ3yl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ooAKKKKACiiigAooooAKKKKACiiigAooNFACHPaijvRQAAYpaKQj0oAXGKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoopDnHFMBaKKKQBRRRQAUhHpS0UAA96KKKACiiigAooooAKKKKACiiigAooooAXmjmkpcUAf/9D9qh1p1NHWnV5h0BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAEZooooAQGlpB1pB6UAOopB60tMAoxRRSATApaKKYBRRRSAKKKKACjFFFABSYzS0UAFFFFABRRRTAKKKKQBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUALRQKXmgD/0f2qHWnU0dadXmnQFFFFIAooooAKKKKACjOKKKACigDFFABRRRQAUUUUAFFFFACAYpfpRRQAhFHQUtJgUALRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAOGaXmmilx70Af/S/avvS0nelrzWdAUUUUgCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAAUtJRQA4UhpKKYBRRRSAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigBaMD1oGKXIoA//T/asdaWmj1p1eadAUUUUgCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKQ0tFACHk0tJ3zS0AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRTAKKKKQBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR3oAKKKKACiiigAooooAUZ7UvzUgzS80Af//U/apadTR6U6vMOgKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigBBnHPNLRRQAUuKSlJzQAlFFFABRRRQAUUUdaACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiikPSgA5paKKAHClxSA4pdwoA//9X9qh1p1NWnV5tjoCiiiiwBRRRSAKKTmjmgBaKTmnGgBKKTmjmgBaKKTmmAtFJzS0AFFJzS0gCiiinYAooo+lFgCik5o5oAWig+1JzQAtFFJzSAWijmgZNMAooOaKLAFHtSc0tIAooooAKKKKACik5peT0oAKKTmlpgFFJzS0gCijrS9aYCUUUUAFFJzRzSAWilwaSgAooooAKKU0lOwCDPeloooAKQ8ilopAIOlLRRTAKKBn0pfwpAf//W/asU6minV5yNwxzilIxQPvUpqRhtFG0UtFACbRTcU+m96AF2ijaKWigBNoo2ilooATaKNopaKYCbRRtFLRQA3aKMCnHpSUgE2ikAp46U0U0AAA0u0UCloATaKNopaKAE2ijaKWikAgUUbRSjpRQA3AzS7RR3paAE2ijaKWimAm0Um0U6ikAm0UbRS0UAJtFG0UtFACbRRtFLRTQCbRRtFLRSATaKNopaKAGgCl2ilHSigBNoo2ilopgNwKXaKBS0gExRtFLRQAm0Um0U6jvQAm0Um0U6g9KAGkYpdooPUUtMBNopCBTqQ0gEAzQRilXpQ3SqAZRRRTJP/9k=" alt="微光前行 Logo">
-    <div class="kicker">微光前行 · SHARON COACHING</div>
-    <h1>轉職＆求職計畫</h1>
-    <div class="hero-slogan">下一份工作，不只是換一個地方。<br>而是更靠近，你真正想要的生活。</div>
-    <a class="btn" href="https://tally.so/r/RGNLkJ" target="_blank" rel="noopener">🧳 加入下一期排隊名單</a>
-    <div class="hero-note">排隊不代表正式報名，開放時將優先收到通知。</div>
-  </div>
-</header>
-
-<main>
-<section class="pain-section">
-  <div class="wrap pain-wrap">
-    <div class="pain-kicker">CAREER TRANSITION</div>
-    <h2>求職最累人的，往往不是投履歷或面試</h2>
-    <p class="pain-lead">而是在一次次的不確定裡，反覆懷疑自己的選擇。</p>
-
-    <div class="pain-grid">
-      <div class="pain-card">
-        <div class="pain-icon">🧭</div>
-        <h3>不知道下一步往哪裡走</h3>
-        <p>看了很多職缺、問了很多人，卻還是不確定哪個方向真正適合自己。</p>
-      </div>
-      <div class="pain-card">
-        <div class="pain-icon">🌊</div>
-        <h3>等待結果時，焦慮把自己拖著走</h3>
-        <p>履歷沒回音、面試後等待通知，很容易開始否定自己的能力與價值。</p>
-      </div>
-      <div class="pain-card">
-        <div class="pain-icon">🎯</div>
-        <h3>機會出現了，反而更不知道怎麼選</h3>
-        <p>真正困難的不是「哪一個比較好」，而是你還沒看清自己真正重視的是什麼。</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="coach-intro">
-  <div class="coach-wrap">
-    <div>
-      <img
-        class="coach-photo"
-        src="https://storage.tally.so/5eccab32-3aa1-431f-8e01-5b0cc3499b12/DSCF3749-2-.jpg"
-        alt="Sharon 教練進行分享與引導"
-        loading="lazy"
-      >
-    </div>
-
-    <div class="coach-copy">
-      <h2>嗨！我是你的教練 Sharon 👋</h2>
-
-      <div class="coach-stats">
-        <div class="coach-stat">
-          <span class="big">500+</span>
-          <span class="small">陪伴夥伴數</span>
-        </div>
-        <div class="coach-stat">
-          <span class="big">5 年</span>
-          <span class="small">個人成長陪伴與帶領</span>
-        </div>
-        <div class="coach-stat">
-          <span class="big" style="font-size:14px;line-height:1.55">職涯會談<br>助人事業創業者會談</span>
-          <span class="small">專攻議題</span>
-        </div>
-      </div>
-
-      <p>我花了十年時間，探索自己的天賦，以及自己真正想成為什麼樣的大人。</p>
-
-      <p>我的職涯也不是一條筆直的路。從遊戲業韓國市場 PM、知識內容業資深行銷，到房地產 PM，我走過不同產業，也一次次重新思考：<span class="coach-em">什麼樣的工作，才真正適合自己？</span></p>
-
-      <p>五年前，我成為台灣首位自我成長社群經理，從陪伴人們探索自我開始，到成為生命教練、創辦《微光前行》。至今已陪伴超過 500 位夥伴，包含外商科技業（Apple、微軟、富士康、廣達）、軍公教、新創等不同背景。</p>
-
-      <p>我擅長將複雜的想法化繁為簡，整合感性洞察 × 理性策略，並結合 Coaching 覺察對話與生涯設計，陪你看見自己的價值，也看清下一步。</p>
-    </div>
-  </div>
-</section>
-<section class="testimonials">
-  <div class="wrap">
-    <h2 class="section-title">學員真實回饋</h2>
-
-    <div class="testimonial-grid">
-      <article class="testimonial-card">
-        <div class="testimonial-person">
-          <div class="testimonial-avatar" aria-hidden="true">👩🏻‍💻</div>
-          <div>
-            <div class="testimonial-name">S 小姐</div>
-            <div class="testimonial-industry">科技業轉職</div>
-          </div>
-        </div>
-        <div class="testimonial-label">對談主題｜轉職路上的迷惘與自我懷疑</div>
-        <p class="testimonial-quote">透過會談中的傾聽、反思提問與自我檢視，我重新整理自己的想法與經驗，也慢慢看清楚自己真正重視的方向。<br><br>最有幫助的是，讓我了解到自己在這條道路上並不孤單，也更清晰自己的輪廓。</p>
-      </article>
-
-      <article class="testimonial-card">
-        <div class="testimonial-person">
-          <div class="testimonial-avatar" aria-hidden="true">👩🏻‍💻</div>
-          <div>
-            <div class="testimonial-name">N 小姐</div>
-            <div class="testimonial-industry">社會新鮮人・工程師</div>
-          </div>
-        </div>
-        <div class="testimonial-label">對談主題｜在公司不開心，也反覆糾結要不要離職</div>
-        <p class="testimonial-quote">當時我在公司過得很不開心，也看不見自己的價值，一直在「要不要離職」之間來回拉扯。透過教練會談，我開始找到看見與肯定自己的方式，也重新整理自己在職場中的選擇。<br><br>幾個月後，我順利通過試用期，也和同事相處得更自在。原來除了離職之外，職場生活還有很多不同的選擇。</p>
-      </article>
-
-      <article class="testimonial-card">
-        <div class="testimonial-person">
-          <div class="testimonial-avatar" aria-hidden="true">👩🏻‍💼</div>
-          <div>
-            <div class="testimonial-name">M 小姐</div>
-            <div class="testimonial-industry">外商科技業</div>
-          </div>
-        </div>
-        <div class="testimonial-label">對談主題｜工作壓力大到想裸辭，不知道下一步往哪裡走</div>
-        <p class="testimonial-quote">當時工作壓力大到我一度想裸辭，情緒和各種選擇混在一起，很難知道下一步要往哪裡走。會談中關於排序與標籤的討論，幫助我把混亂慢慢拆開。<br><br>那些關於排序跟標籤的討論，在我心中就像北極星一樣，為我指出一個方向。</p>
-      </article>
-
-      <article class="testimonial-card">
-        <div class="testimonial-person">
-          <div class="testimonial-avatar" aria-hidden="true">👩🏻‍👧</div>
-          <div>
-            <div class="testimonial-name">SO 小姐</div>
-            <div class="testimonial-industry">職場媽媽</div>
-          </div>
-        </div>
-        <div class="testimonial-label">對談主題｜工作與家庭纏在一起，不知道怎麼做決定</div>
-        <p class="testimonial-quote">工作與家庭之間的問題像打結的毛線球，我常常找不到頭緒。透過 Sharon 的傾聽與提問，我可以在很自在的狀態下表達自己，也慢慢找到問題的線頭。<br><br>她不會直接給我答案，而是透過提問，引導我找到最適合自己的決定。</p>
-      </article>
-
-      <article class="testimonial-card">
-        <div class="testimonial-person">
-          <div class="testimonial-avatar" aria-hidden="true">👩🏻‍🏫</div>
-          <div>
-            <div class="testimonial-name">C 小姐</div>
-            <div class="testimonial-industry">教練工作者</div>
-          </div>
-        </div>
-        <div class="testimonial-label">對談主題｜遇到卡點時，重新校正心態與看問題的角度</div>
-        <p class="testimonial-quote">雖然自己也是教練，但遇到卡點時，我也需要重新校正自己的心態與看問題的角度。透過一對一的整理、提問與亮點回看，我重新看見自己的能力與特質，也產生新的觀點。<br><br>這些對話讓我得到啟發、打破心魔，也讓我更有信心繼續在教練領域深耕。</p>
-      </article>
-
-      <article class="testimonial-card">
-        <div class="testimonial-person">
-          <div class="testimonial-avatar" aria-hidden="true">👩🏻</div>
-          <div>
-            <div class="testimonial-name">L 小姐</div>
-            <div class="testimonial-industry">助人工作者</div>
-          </div>
-        </div>
-        <div class="testimonial-label">對談主題｜在人際與工作裡反覆內耗，不確定自己的界線</div>
-        <p class="testimonial-quote">原本我在人際與工作裡常常感到內耗，也不太確定自己的界線在哪。透過對談，我開始把外在的不舒服往內整理，也更知道自己真正需要守住的是什麼。</p>
-      </article>
-    </div>
-
-    <div class="testimonial-mobile-nav" aria-label="學員回饋滑動導覽">
-      <div class="testimonial-swipe-hint">← 左右滑動查看更多回饋 →</div>
-      <div class="testimonial-dots">
-        <button class="testimonial-dot is-active" type="button" aria-label="查看第 1 則回饋"></button>
-        <button class="testimonial-dot" type="button" aria-label="查看第 2 則回饋"></button>
-        <button class="testimonial-dot" type="button" aria-label="查看第 3 則回饋"></button>
-        <button class="testimonial-dot" type="button" aria-label="查看第 4 則回饋"></button>
-        <button class="testimonial-dot" type="button" aria-label="查看第 5 則回饋"></button>
-        <button class="testimonial-dot" type="button" aria-label="查看第 6 則回饋"></button>
-      </div>
-    </div>
-
-</div>
-</section>
-<section class="waitlist-station" id="waitlist">
-  <div class="station-inner">
-    <div class="station-kicker">NEXT COHORT</div>
-    <h2>下一次開放報名</h2>
-    <div class="station-date">2026 / 09 / 15（二）中午 12:00</div>
-
-    <div class="waitlist-countdown" aria-label="倒數計時">
-      <div class="waitlist-time"><span class="num" id="days">--</span><span class="lab">DAY</span></div>
-      <div class="waitlist-time"><span class="num" id="hours">--</span><span class="lab">HOUR</span></div>
-      <div class="waitlist-time"><span class="num" id="minutes">--</span><span class="lab">MIN</span></div>
-      <div class="waitlist-time"><span class="num" id="seconds">--</span><span class="lab">SEC</span></div>
-    </div>
-
-    <p class="station-copy">排隊者會優先收到下一次開放報名的資訊與通知。</p>
-
-    <a class="station-btn" href="https://tally.so/r/RGNLkJ" target="_blank" rel="noopener">🧳 加入下一期排隊名單 →</a>
-    <div class="station-note">填寫排隊表單不代表正式報名</div>
-  </div>
+<section id="pool" class="page"><div class="eyebrow">CONTENT · MINE</div><h1>不知道下一個要做什麼？<br>回來挖自己的礦。</h1><p class="lead">DISCOVER 專門找 Workshop / Live Talk 深度互動題目；EXPAND 做單篇裂變；SYNTHESIZE 把多個舊觀點組成更大的內容。</p>
+<div class="tabs"><button class="tab active" data-pane="discover">DISCOVER｜主題挖掘</button><button class="tab" data-pane="expand">EXPAND｜內容裂變</button><button class="tab" data-pane="synth">SYNTHESIZE｜主題組合</button></div>
+<div id="discover" class="pane active"><div class="card"><label>我現在想找什麼主題？</label><div class="channels" id="discoverKinds"><button class="channel selected" data-kind="Workshop">Workshop</button><button class="channel" data-kind="Live Talk">Live Talk</button></div><div class="actions"><button class="btn primary" onclick="discoverTopics()">✦ 從 Library 幫我找主題</button><span class="hint">只挖掘適合與粉絲深度互動、建立信任的題目。</span></div></div><div id="discoverResults"></div></div>
+<div id="expand" class="pane"><div class="card"><label>搜尋一個既有內容</label><input id="expandSearch" class="field" placeholder="例如：害怕選錯"><div id="expandMatches" class="list"></div><div style="margin-top:20px"><label>重新發展成</label><div class="channels" id="expandChannels"></div></div><div class="actions"><button class="btn primary" onclick="makeExpandPrompt()">生成裂變 ChatGPT 指令 →</button></div></div></div>
+<div id="synth" class="pane"><div class="card">
+<label>從 Library 選擇要組合的內容</label>
+<p class="hint">SYNTHESIZE 不建立第二份資料；這裡直接讀取 Library。選 2–10 個你覺得可能彼此有關的內容，再讓 ChatGPT 找出更高一層的共同母題。</p>
+<div class="synth-toolbar"><input id="synthSearch" class="field" placeholder="搜尋關鍵字、內容或 #Hashtag"><button class="btn" onclick="renderSynth()">搜尋</button></div>
+<div class="synth-types" id="synthTypes"></div>
+<div id="synthSelected" class="selected-box"></div>
+<div id="synthList"></div>
+<div class="actions"><button id="synthBtn" class="btn primary" onclick="makeSynthPrompt()">✦ 幫我找共同母題 →</button><span id="synthCount" class="count-note">至少選 2 個，最多 10 個</span></div>
+</div></div>
 </section>
 
+<section id="calendar" class="page"><div class="eyebrow">CONTENT · MANUAL EDITORIAL CALENDAR</div><h1>你決定，哪一天談什麼。</h1><p class="lead">不替你排內容，也不追蹤製作進度。這裡只回答：哪一天，要談什麼？</p>
+<div class="toolbar"><button class="btn" onclick="moveMonth(-1)">← 上個月</button><div class="grow" id="monthTitle" style="text-align:center;font:24px Georgia,serif"></div><button class="btn" onclick="moveMonth(1)">下個月 →</button><button class="btn primary" onclick="openCalendar()">＋ 新增內容</button></div>
+<div class="calendar-head"><div>日</div><div>一</div><div>二</div><div>三</div><div>四</div><div>五</div><div>六</div></div><div class="calendar" id="calendarGrid"></div></section>
 
-<section class="program-intro">
-  <div class="program-heading wrap">
-    <div class="program-kicker">PROGRAM</div>
-    <h2>轉職／求職計畫</h2>
-    <div class="program-mini-title">🧳 3 個月・6 次 1 對 1 Coaching</div>
-  </div>
+<section id="library" class="page"><div class="eyebrow">CONTENT · LIBRARY</div><h1>你曾經認真想過的東西。</h1><p class="lead">Library 不只存成品，也存 Insight、想法、故事與值得再次使用的素材。</p>
+<div class="toolbar"><input id="libSearch" class="field grow" placeholder="搜尋關鍵字或 #hashtag"><button class="btn" onclick="renderLibrary()">搜尋</button></div><div class="tags" id="tagFilters"></div><div class="list" id="libraryList"></div></section>
 
-  <section class="section program-details">
-    <div class="wrap">
-      <div class="service-card">
-        <p>依照你的轉職進程，會談中會一起整理這些常見卡點與選擇。</p>
-        <p>透過深度提問與覺察引導，陪你看見真正困住你的原因，重新盤點自己的動機、能力與資源，找到更適合自己的下一站。</p>
+<section id="insight" class="page"><div class="eyebrow">BRAIN · INSIGHT MAP</div><h1>Sharon 長期在發展哪些觀點？</h1><p class="lead">不是貼文分類，而是把散落內容往上聚合成可持續發展的思想資產。</p><div class="grid3"><div class="feature"><h3>職涯選擇</h3><p>害怕選錯 → 不選擇作為安全 → 面對未知 → 建立自己的判斷標準。</p></div><div class="feature"><h3>自我覺察</h3><p>看見慣性 → 理解形成 → 重新選擇 → 回到生活驗證。</p></div><div class="feature"><h3>行動與卡關</h3><p>知道問題 ≠ 能行動；真正值得探索的是「為什麼跨不出去」。</p></div></div></section>
 
-        <div class="points">
-          <div class="point"><strong>🧭 釐清方向</strong><span>盤點動機、優勢與現有資源。</span></div>
-          <div class="point"><strong>📋 建立求職策略</strong><span>把「我想換工作」拆成可以開始執行的下一步。</span></div>
-          <div class="point"><strong>🌊 面對等待與焦慮</strong><span>在履歷、面試與等待結果的過程中，不再被焦慮拖著走。</span></div>
-          <div class="point"><strong>🎯 Offer 選擇</strong><span>不只問哪一個比較好，而是看見哪一個更適合自己。</span></div>
-          <div class="point"><strong>🌱 適應新的開始</strong><span>整理期待、界線與不安，慢慢站穩新的位置。</span></div>
-          <div class="point"><strong>✨ 看見自己的價值</strong><span>整理能力與經驗，不再因為職缺條件而先否定自己。</span></div>
-        </div>
+<section id="research" class="page"><div class="eyebrow">BRAIN · AI RESEARCH</div><h1>替一個觀點，往外找資料。</h1><p class="lead">帶著 Content Brain 的上下文產生 Research Prompt，再交給 ChatGPT 搜尋真實案例、報導、思想框架、Books & Thinkers 與可驗證 Quotes。</p><div class="card"><label>研究題目</label><textarea id="researchRaw" placeholder="也可以從 Library / Content Pool 帶入……"></textarea><div class="actions"><button class="btn primary" onclick="makeResearchPrompt()">生成 AI Research 指令 →</button></div></div></section>
 
-        <div class="plan-extra">
-          <h3>加入完整計畫，你還會獲得</h3>
-          <div class="plan-extra-grid">
-            <div class="plan-extra-card">
-              <strong>🗺️ 專屬 3 個月個人陪跑地圖</strong>
-              <span>根據首次深度會談，整理你的核心目標、現階段卡點與接下來三個月的陪跑重點。</span>
-            </div>
-            <div class="plan-extra-card">
-              <strong>🌱 6 次 Coaching 成長軌跡</strong>
-              <span>記錄三個月裡的重要覺察、選擇與改變，讓每一次會談不只是「聊完」，而是看得見自己一路走了多遠。</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<section id="brain" class="page"><div class="eyebrow">SYSTEM · BRAND BRAIN</div><h1>讓 Content Studio 真的認識 Sharon。</h1><p class="lead">這裡是品牌的 Current Truth。START、EXPAND、DISCOVER 與 AI RESEARCH 會直接讀取你儲存的內容；改一次，之後的 ChatGPT 指令一起更新。</p>
+<div class="brain-tabs"><button class="brain-tab active" data-brain="truth">BRAND KNOWLEDGE</button><button class="brain-tab" data-brain="offers">CURRENT OFFERS</button><button class="brain-tab" data-brain="os">CHANNEL OS</button><button class="brain-tab" data-brain="archive">BRAND ARCHIVE</button></div>
+<div id="brain-truth" class="brain-panel active"><div class="brain-grid">
+<div class="brain-card wide"><h3>Current Truth</h3><div class="brain-meta">現在的品牌定位與核心主張 · 權威最高</div><textarea data-brand="currentTruth"></textarea></div>
+<div class="brain-card"><h3>Audience</h3><div class="brain-meta">不是人口資料，而是真實處境、OS 與需求</div><textarea data-brand="audience"></textarea></div>
+<div class="brain-card"><h3>Worldview</h3><div class="brain-meta">長期不容易改變的品牌信念</div><textarea data-brand="worldview"></textarea></div>
+<div class="brain-card"><h3>Sharon Story</h3><div class="brain-meta">可被內容引用的人生與職涯脈絡</div><textarea data-brand="story"></textarea></div>
+<div class="brain-card wide"><h3>Method · Core Belief</h3><div class="brain-meta">Coaching 最核心的工作信念</div><textarea data-brand="methodCore"></textarea></div>
+<div class="brain-card"><h3>Clarity Process</h3><div class="brain-meta">單次 60 分鐘：如何從混亂走到可行動</div><textarea data-brand="clarityProcess"></textarea></div>
+<div class="brain-card"><h3>Coaching Loop</h3><div class="brain-meta">長期陪跑：真正的改變如何走進生活</div><textarea data-brand="coachingLoop"></textarea></div>
+<div class="brain-card wide"><h3>Change Philosophy</h3><div class="brain-meta">想通不是終點；改變發生在重新回到生活之後</div><textarea data-brand="changePhilosophy"></textarea></div>
+<div class="brain-card"><h3>Voice & Editorial Rules</h3><div class="brain-meta">所有渠道共同遵守的寫作人格與編輯規則</div><textarea data-brand="voice"></textarea></div>
+<div class="brain-card"><h3>Proof</h3><div class="brain-meta">只能使用真實、可支持的經歷與學員結果</div><textarea data-brand="proof"></textarea></div>
+<div class="brain-card wide"><h3>Boundaries</h3><div class="brain-meta">服務與內容不能跨過的界線</div><textarea data-brand="boundaries"></textarea></div>
+</div></div>
+<div id="brain-offers" class="brain-panel"><div class="brain-note">會變動的價格、方案、報名方式放這裡，不污染長期 Brand Brain。Sales Prompt 會優先讀取此區。</div><div class="brain-grid"><div class="brain-card wide"><h3>Current Offers</h3><div class="brain-meta">目前正式對外的服務與方案</div><textarea data-brand="offers"></textarea></div></div></div>
+<div id="brain-os" class="brain-panel"><div class="brain-note">Brand Brain 回答「Sharon 是誰、相信什麼」；Channel OS 回答「這個媒介應該怎麼寫」。兩者在 Prompt Engine 才合併。</div><div class="os-editor"><label>選擇媒介</label><select id="osSelect"></select></div><div class="brain-grid"><div class="brain-card wide"><h3 id="osTitle">Channel OS</h3><textarea id="osText"></textarea></div></div></div>
+<div id="brain-archive" class="brain-panel"><div class="brain-note">歷史定位可以留存供研究，但 START 預設不讀取，避免舊版「生命教練／舊 TA／舊方案」覆蓋現在的定位。</div><div class="brain-grid"><div class="brain-card wide"><h3>Brand Archive</h3><div class="brain-meta">舊官網、Podcast 舊自介、過去定位與可追溯素材</div><textarea data-brand="archive"></textarea></div></div></div>
+<div class="brain-savebar"><span id="brainSaveState" class="save-state">尚未修改</span><button class="btn" onclick="resetBrandBrain()">恢復預設</button><button class="btn primary" onclick="saveBrandBrain()">儲存 BRAND BRAIN</button></div></section>
 
-  
-<section class="first-session">
-  <div class="first-session-wrap">
-    <div class="first-session-kicker">加入計畫前的第一步</div>
-    <h2 class="first-session-title">60 分鐘首次深度會談</h2>
-    <p class="first-session-sub">早鳥優惠價$2,400（原價$3,200）</p>
+<section id="backup" class="page"><div class="eyebrow">SYSTEM · BACKUP</div><h1>資料怎麼存？</h1><p class="lead">工作資料留在這台 Mac 的瀏覽器；Google Sheet 只紀錄你確認「已發布」的最終版本；JSON Backup 則是完整 Content Brain 的災難備份。</p><div class="card"><div class="notice"><b>Google Sheet Published Archive</b><br>只需要四欄：主題｜媒介形式｜內文｜Hashtag。Calendar 內容只有在你按「✓ 已發布」並確認最終文案後才會送出。</div><div class="actions"><button class="btn primary" onclick="exportBackup()">匯出完整 JSON Backup</button><label class="btn" style="font-weight:400;margin:0">匯入 Backup<input id="backupFile" type="file" accept=".json" hidden></label></div></div></section>
 
-    <div class="first-session-content-grid">
-      <div class="first-content-card">
-        <div class="first-content-icon">🔍</div>
-        <div>
-          <strong>找到真正的卡點</strong>
-          <span>釐清現在困住你的，究竟是方向、選擇、信心，還是對未知的擔心。</span>
-        </div>
-      </div>
+</main></div>
 
-      <div class="first-content-card">
-        <div class="first-content-icon">🧩</div>
-        <div>
-          <strong>把混亂整理清楚</strong>
-          <span>梳理腦中的想法，重新盤點你已經擁有的能力、資源與可能性。</span>
-        </div>
-      </div>
+<div id="calModal" class="modal"><div class="modalbox"><button class="x" onclick="closeModal('calModal')">×</button><h2 id="calModalTitle">新增 Calendar 內容</h2>
+<label>日期</label><input id="calDate" class="field" type="date"><br><br><label>主題</label><input id="calTitle" class="field" placeholder="這一天想談什麼？"><br><br><label>媒介形式</label><select id="calType"></select><br><br>
+<label>內文</label><textarea id="calBody" placeholder="可先留白；發布前再貼入最終版本。"></textarea><br><br><label>Hashtag</label><div class="tagbox" id="tagbox"><input id="tagInput" placeholder="輸入後按 Enter"></div><div class="suggest" id="tagSuggest"></div>
+<label>備註</label><input id="calNote" class="field" placeholder="選填"><div class="actions"><button class="btn primary" onclick="saveCalendar()">儲存</button><button id="publishBtn" class="btn hidden" onclick="publishCalendar()">✓ 已發布</button><button id="deleteBtn" class="btn hidden" onclick="deleteCalendar()">刪除</button></div></div></div>
 
-      <div class="first-content-card">
-        <div class="first-content-icon">🧭</div>
-        <div>
-          <strong>帶著下一步離開會談</strong>
-          <span>不是聊完就結束，而是一起整理出你接下來真正可以開始做的事。</span>
-        </div>
-      </div>
-    </div>
-
-    <p class="first-session-note">首次深度會談是加入 3 個月計畫前的必要步驟。完成會談後，你可以再依照自己的狀態，決定是否繼續加入完整計畫。</p>
-  </div>
-</section>
-
-</section>
-
-<section class="faq-section">
-  <div class="wrap faq-wrap">
-    <div class="faq-kicker">FAQ</div>
-    <h2>常見問題</h2>
-    <p class="faq-lead">如果你還在評估這個計畫是否適合自己，可以先從這裡了解。</p>
-    <div class="faq-list">
-      <details class="faq-item">
-      <summary>這項服務包含心理治療嗎？<span class="faq-plus">＋</span></summary>
-      <div class="faq-answer"><p>不包含。教練服務提供的是非治療向的個人成長與職涯陪伴，專注在「釐清現況」、「看見思考模式」、「轉化限制信念」與「設計下一步」。如果你正在經歷嚴重情緒失調、憂鬱、焦慮或創傷議題，建議優先尋求心理諮商師或其他心理健康專業人員協助。</p></div>
-    </details>
-<details class="faq-item">
-      <summary>教練服務和心理諮商有什麼不同？<span class="faq-plus">＋</span></summary>
-      <div class="faq-answer"><p>心理諮商通常由心理師依其專業協助處理心理健康、情緒與創傷等議題；Coaching 則更聚焦在你此刻的狀態與接下來想前往的方向，例如：你想去哪裡、是什麼讓你卡住，以及下一步可以怎麼走。兩者目的與專業範疇不同，也可能依個人需求搭配進行。</p></div>
-    </details>
-<details class="faq-item">
-      <summary>如果我不知道自己的問題在哪裡，可以來嗎？<span class="faq-plus">＋</span></summary>
-      <div class="faq-answer"><p>完全可以，這反而是很常見的狀態。很多人來找我的時候，只知道「感覺哪裡不對勁」，卻說不清楚是什麼。你不需要先整理好答案，會談本身就是一起把問題慢慢看清楚的過程。</p></div>
-    </details>
-<details class="faq-item">
-      <summary>這個計畫適合什麼樣的人？<span class="faq-plus">＋</span></summary>
-      <div class="faq-answer"><p>適合正在考慮轉職、已經開始求職，或正面臨 Offer 選擇與新工作適應的人。尤其如果你不是缺少更多職缺資訊，而是卡在「不知道自己真正想要什麼」、「很怕選錯」、「明明想改變卻一直停在原地」，這個計畫會更適合你。</p></div>
-    </details>
-<details class="faq-item">
-      <summary>這個計畫會幫我修改履歷、求職信或模擬面試嗎？<span class="faq-plus">＋</span></summary>
-      <div class="faq-answer"><p>不會。這不是履歷健檢或面試技巧課程。我們會聚焦在方向釐清、求職決策、行動策略，以及求職過程中的焦慮、自我懷疑與選擇卡點；如果你需要履歷修改或模擬面試，建議另外尋找相關專業服務。</p></div>
-    </details>
-<details class="faq-item">
-      <summary>一定要先參加 60 分鐘首次深度會談，才能加入 3 個月計畫嗎？<span class="faq-plus">＋</span></summary>
-      <div class="faq-answer"><p>是的。首次會談是加入完整計畫前的必要步驟，讓我們先實際合作一次，也一起確認目前最值得聚焦的議題。會談結束後，你再決定是否繼續加入 3 個月陪跑即可。</p></div>
-    </details>
-<details class="faq-item">
-      <summary>加入排隊名單，就代表已經報名成功嗎？<span class="faq-plus">＋</span></summary>
-      <div class="faq-answer"><p>不是。排隊名單只是讓你優先收到下一次開放報名的資訊與通知，不代表完成正式報名，也不會自動產生付款或預約。</p></div>
-    </details>
-    </div>
-    <div class="faq-disclaimer">
-      <h3>📋 免責聲明</h3>
-      <ol>
-        <li>本服務屬於人生探索、情緒釐清、目標陪伴性質，旨在協助您釐清思緒、看見自我模式、探索內心渴望，並非心理治療或醫療行為。</li>
-        <li>若您目前正經歷重大心理疾病、嚴重憂鬱、焦慮、創傷議題，建議您優先尋求專業心理諮商或醫療協助，本服務不提供診斷、醫療或緊急處遇。</li>
-        <li>教練過程中的任何分享與建議，您可依自身狀況評估採納；您對最終的行動選擇與人生方向擁有完全自主決定權與責任。</li>
-        <li>為維護雙方安全，教練過程中若發現有明顯心理健康風險，教練有權中止服務，並協助您轉介適合資源。</li>
-        <li>所有教練對談內容，將遵守保密原則，除非涉及法律規範或個案主動同意揭露。</li>
-      </ol>
-    </div>
-  </div>
-</section>
-
-</main>
-
-
-
-
-
-
-<footer>微光前行｜在迷霧裡，陪你看見更多元的人生選擇 🌍</footer>
-
-<div class="sticky">
-  <div class="sticky-inner">
-    <div class="sticky-copy"><strong>轉職＆求職計畫</strong><span>下一次開放前，先加入排隊名單</span></div>
-    <a class="btn" href="https://tally.so/r/RGNLkJ" target="_blank" rel="noopener">加入排隊 →</a>
-  </div>
-</div>
+<div id="drawerBack" class="drawerback" onclick="if(event.target===this)closeDrawer()"><div class="drawer"><button class="x" onclick="closeDrawer()">×</button><div id="drawerContent"></div></div></div>
+<div id="promptModal" class="modal"><div class="modalbox"><button class="x" onclick="closeModal('promptModal')">×</button><h2 id="promptTitle">ChatGPT 指令</h2><div id="promptText" class="prompt"></div><div class="actions"><button class="btn primary" onclick="copyPrompt()">複製 ChatGPT 指令</button></div></div></div>
 
 <script>
-const target = new Date('2026-09-15T12:00:00+08:00').getTime();
-function tick(){
-  const now=Date.now(), d=target-now;
-  if(d<=0){
-    ['days','hours','minutes','seconds'].forEach(id=>document.getElementById(id).textContent='00');
-    document.getElementById('countdownText').textContent='本期已開放報名'; return;
-  }
-  const days=Math.floor(d/86400000);
-  const hours=Math.floor((d%86400000)/3600000);
-  const minutes=Math.floor((d%3600000)/60000);
-  const seconds=Math.floor((d%60000)/1000);
-  document.getElementById('days').textContent=String(days).padStart(2,'0');
-  document.getElementById('hours').textContent=String(hours).padStart(2,'0');
-  document.getElementById('minutes').textContent=String(minutes).padStart(2,'0');
-  document.getElementById('seconds').textContent=String(seconds).padStart(2,'0');
+const CHANNELS=['Reels','Carousel','Threads','晚點聊','Podcast','Live Talk','Workshop','Sales'];
+const COMMON_FALLBACK=`【品牌】
+《微光前行》｜Sharon（雪倫）。核心：自我覺察 × 生涯探索；內在穩定 × 外在動能。
+
+【主要讀者】
+28–38 歲、工作約 5 年以上，正處於轉職、求職、工作無感、自我懷疑或人生選擇期的人。
+
+【內容定位】
+不替讀者決定答案。透過具體情境、換框架與覺察提問，讓人更理解自己，建立自己的判斷標準。
+
+【Sharon Voice】
+繁體中文；口語、直接、溫暖、清楚、有洞察。具體 > 抽象；清楚 > 完整；洞察 > 資訊量。避免說教與過度雞湯。
+
+【避免】
+避免：相信自己、勇敢一點、不要害怕、你不是不夠好等泛用安慰。避免把讀者描述成壞掉、失敗、弱者。避免一篇塞太多觀點。
+
+【所有渠道共通的編輯原則】
+- 一份內容只處理一個核心命題。
+- 從具體情境／觀察出發，不先講大道理。
+- 表面問題至少往下拆一層，目標是讓讀者出現「欸，我從來沒這樣想過」。
+- 不替讀者做決定；需要提問時，要能改變問題框架，而非泛用 Coaching 問句。
+- 清楚 > 完整；洞察 > 資訊量；具體 > 抽象；推進 > 堆疊。
+- 若素材和既有觀點很像，不要為了新而新；指出可換的情境、問題深度、媒介或結論。
+- 先完成編輯判斷，再產出最終版本。`;
+
+const CHANNEL_OS={
+'Reels':`【Reels Channel OS】
+專業知識型短影音：HOOK → PROBLEM → SOLUTION（需要時再加 CTA）。
+HOOK 先找這支最值得放開頭的觀察、反常識、問題、結果或專業經驗，不准用「今天想分享」。
+PROBLEM 不急著解法，要追問為什麼、一般人以為問題在哪、以 Sharon 的視角真正問題是什麼、持續下去會發生什麼。
+SOLUTION 必須具體到可執行：優先給 3 個步驟／問題／行動與判斷標準，避免「了解自己、找到定位、持續輸出」等抽象答案。
+
+【Reels Editorial Task】
+1. 先找出最值得講的一件事。
+2. 提出 4 種 Hook 候選：觀察型／反常識型／問題型／專業經驗型，選出最適合的一個。
+3. 把 PROBLEM 往下拆一層。
+4. 給具體可執行 SOLUTION。
+5. 最後寫完整口語腳本；前 1–3 秒可獨立成立，一支只講一個洞察。
+6. CTA 只有內容自然需要時才加。
+
+【Final Deliverable】
+不要停在分析或大綱。最後必須交付可直接錄製的完整 Reels 口語腳本。`,
+'Carousel':`【Carousel Channel OS】
+簡報式推進，不做懶人包。每頁回答讀者腦中的下一個「所以呢？」，同時留下繼續翻頁的理由。
+先找唯一認知線，再依題目決定結構；常見路徑：異常現象 → 自我追問 → 真正矛盾 → 新理解／解法 → 讀者自我提問。
+P1/P2 少字、有 punchline；每頁只推進一件事。不是證明 Sharon 知道很多，而是讓讀者在幾頁內真正理解一件事。產品若出現，必須是前面論證後的自然下一步。
+
+【Carousel Editorial Task】
+1. 先用一句話寫出唯一的認知轉變：讀者看之前相信 A，看完後理解 B。
+2. 找最適合的簡報式推進線；每頁回答上一頁留下的「所以呢？」。
+3. 預設 5 頁，需要時可 4–7 頁。
+4. P1 只負責停下來；P2 是 second hook／第一個反直覺答案；中段再展開。
+5. 可使用「我原本以為 A → 後來發現 B → 真正要處理的是 C」控制節奏，但不要機械套句。
+6. 產品／CTA 只能是前面論證後的自然下一步。
+
+【Final Deliverable】
+不要只給架構。最後必須輸出完整逐頁 Carousel 文案，並在每頁後用一行註明「這頁的任務」。`,
+'Threads':`【Threads Channel OS】
+一則只講一個觀點。第一句必須能獨立成立並讓人停下來；用具體觀察或真實 OS 開始，再推進到新的理解。短段落、自然口語，不做條列懶人包；CTA 非必要。
+
+【Threads Editorial Task】
+1. 找出一句最值得當第一句的觀點。
+2. 用一個具體情境／觀察讓讀者代入。
+3. 把表面現象往下拆一層。
+4. 收在一個會讓人繼續想的理解或問題。
+
+【Final Deliverable】
+最後交付一篇可以直接發布的完整 Threads 內文，不要只提供金句或架構。`,
+'晚點聊':`【晚點聊 Channel OS】
+「晚點聊｜聊聊那些，平常沒空聊的事。」單日只談一個主題。具體情境 → 新理解 → 換框架的 Coaching 問題／互動。不要常識型建議，不替讀者下結論。
+
+【晚點聊 Editorial Task】
+1. 設計 2–4 則限動。
+2. 第一則用真實 OS／情境讓人停下來。
+3. 中段提供一個「原來可以這樣看」的新理解。
+4. 最後用真正能換框架的 Coaching 問題或有意義互動收束。
+5. 若要銷售，先製造與主題直接相關的資訊缺口，再自然導向服務。
+
+【Final Deliverable】
+最後交付完整 2–4 則限動逐則文案，清楚標示第 1／2／3／4 則；如需貼紙互動，也寫出貼紙題目與選項。`,
+'Podcast':`【Podcast Channel OS】
+以「值得花一段完整時間聽」為判斷標準。不是把社群貼文拉長，而是建立一條可持續深入的談話主線：核心問題 → 經驗／故事 → 拆解 → 新理解 → 可帶走的思考。
+
+【Podcast Editorial Task】
+1. 定義這集唯一核心問題與聽眾為什麼值得聽。
+2. 設計開場 Hook 與 3–5 個有推進關係的段落。
+3. 每段補可談的故事、案例、追問或轉折。
+4. 若為訪談，設計主問題與自然追問；若為 Solo，設計完整敘事脈絡。
+5. 避免像課程講義。
+
+【Final Deliverable】
+最後交付完整 Podcast 企劃：推薦標題、節目核心、開場、完整段落／訪綱、每段重點與收尾。`,
+'Live Talk':`【Live Talk Channel OS】
+Live Talk 是輕鬆語音直播與粉絲深度互動，不是線上課程。優先選有共鳴、故事性、觀點碰撞與個人經驗分享空間的題目。互動以聊天室文字回覆為主。
+
+【Live Talk Editorial Task】
+1. 設計自然開場與今晚真正想聊的一個問題。
+2. 規劃 3–5 個談話段落，不需要教學式完整框架。
+3. 每段加入 Sharon 可分享的故事／觀點。
+4. 每段設計具體聊天室文字互動題，並提供看到不同類型留言時可以如何承接。
+5. 留下可依現場反應延伸的支線。
+6. 自然收尾，不硬塞銷售。
+
+【Final Deliverable】
+最後交付可直接拿來直播的完整 Run of Show：開場、談話順序、每段內容、聊天室互動題、留言承接與收尾。`,
+'Workshop':`【Workshop Channel OS】
+Workshop 必須讓參與者「實際做一次」，而不是只聽 Sharon 分享。主題要能形成明確學習目標、覺察／書寫／實作活動，結束後有具體帶走的成果。
+
+【Workshop Editorial Task】
+1. 定義活動核心問題、適合對象與明確學習目標。
+2. 設計 2–4 個 Key Takeaways。
+3. 建立完整 90 分鐘學習弧線。
+4. 每個主要段落配置時間，安排覺察書寫、個人盤點、分享或其他實作。
+5. 寫出 Facilitator 如何引導、轉場、提問與收束。
+6. 確保活動不是把 Podcast／貼文做成投影片。
+
+【Final Deliverable】
+最後交付完整 Workshop 活動企劃：名稱、定位、TA、學習目標、Key Takeaways、分鐘級議程、每個活動操作方式、引導問題、Facilitator Notes 與收尾。`,
+'Sales':`【Sales Channel OS】
+從具體需求／情境開始 → 為什麼值得處理 → 新的解法框架 → 服務如何承接 → 能得到的改變 → 降低疑慮 → CTA。
+優先寫 Outcome / Change，不堆疊堂數、流程、Bonus、價格。使用正向表述；稀缺性只使用真實資訊。
+
+【Sales Editorial Task】
+1. 找出受眾此刻最具體的需求與情境。
+2. 說清楚為什麼值得現在處理。
+3. 讓服務成為前面論證後的自然下一步。
+4. 說清楚參與後能得到什麼改變。
+5. 處理必要疑慮，再給明確 CTA。
+
+【Final Deliverable】
+最後交付一份可直接發布的完整銷售文案；依素材最適合的平台調整長度與節奏。`
+};
+const BRAND_DEFAULT={
+currentTruth:`《微光前行》｜Sharon（雪倫）\n核心定位：自我覺察 × 生涯探索。\n品牌主張：內在穩定 × 外在動能。\n\n微光前行關心的，不只是「下一份工作要做什麼」，而是人在不確定裡，如何更理解自己、建立自己的判斷標準，做出更靠近理想生活的選擇。\n\n服務與內容目前以轉職／求職、生涯選擇、自我覺察為主要場景。`,
+audience:`主要讀者約 28–38 歲、已有約 5 年以上工作經驗。\n\n常見處境：\n・已經確定想轉職，但不知道方向。\n・有想離開的念頭，卻反覆猶豫，害怕換了更糟。\n・已經開始求職，在履歷沒回音、等待面試結果時開始懷疑自己的能力與價值。\n・機會真的出現時，反而不知道怎麼選，因為還沒看清自己真正重視什麼。\n・工作做久後越來越無感，也越難辨認自己的能力與價值。\n\n常見內在 OS：我真的適合嗎？萬一選錯怎麼辦？等我準備好一點再說。`,
+worldview:`・人生沒有唯一標準答案。\n・外部建議可以參考，但人生的判斷權需要逐漸回到自己手上。\n・自我覺察不是停在「了解自己」，而是看見需求、價值、慣性與恐懼後，重新做選擇。\n・真正的穩定不是沒有不確定，而是在不確定裡仍然知道自己如何判斷、如何往前。\n・內在穩定與外在動能可以同時存在。`,
+story:`Sharon 的職涯不是一條筆直的路。曾經歷兩度轉學失敗、休學後出國、裸辭、自由接案、創業與多次跨領域轉職；工作橫跨遊戲業韓國市場 PM、知識內容與行銷、產品／專案等領域。\n\n五年前成為台灣首位自我成長社群經理，從陪伴人們探索自我開始，後來投入 Coaching 並創辦《微光前行》。\n\n這些經驗形成一個長期相信的核心：人生沒有唯一標準答案。`,
+methodCore:`核心方法：感性洞察 × 理性策略，結合 Coaching 覺察對話與生涯設計。\n\nCoaching 的目的不是替對方選答案，而是透過對話、覺察與實際嘗試，逐漸建立「我知道可以如何靠自己破關」的能力。\n\n現在的你，是過去無數個選擇累積而成。眼前的職涯卡關往往不只關於這一份工作，也連結著過去的工作經驗、對自己的認識、慣性思考方式、長期形成的價值觀與現實條件。`,
+clarityProcess:`【單次會談｜Clarity Process】\n混亂 → 拆解問題 → 看見真正影響選擇的核心 → 盤點能力、經驗、資源與現實條件 → 收斂成現在做得到的下一步。\n\n1. 拆解「亂糟糟毛線」：把混在一起的問題一條條梳理清楚。\n2. 探索真正影響選擇的核心：可能包含情緒、過去經驗、對自己的判斷與現實條件。\n3. 盤點自己已經擁有的能力、經驗、資源與可能性。\n4. 把探索收斂成現在真正做得到的下一步。`,
+coachingLoop:`【長期陪跑｜Coaching Loop】\n會談前覺察 → 會談中聚焦 → 會談後記錄 → 回到生活嘗試與行動 → 再次遇見焦慮、自我懷疑與熟悉慣性 → 觀察是否開始做出不同選擇 → 帶著新的發現回到下一次會談 → 再看見、再調整。\n\n每一次見面都不是從零開始，而是讓前一次的覺察，有機會真正走進生活。`,
+changePhilosophy:`真正的改變，不只發生在見面的 60 分鐘。\n\n一次會談後，可能會出現「會談後滿足高峰」：思緒變清楚、感到舒壓放鬆、重新充滿動力。但想通不是改變的終點，而是改變真正開始的地方。\n\n當一個人回到生活，再次遇見焦慮、自我懷疑與熟悉的慣性時，真正值得觀察的是：這一次，是否開始看見自己，並做出不一樣的選擇？\n\n簡化循環：看見 → 拆開 → 嘗試 → 回到生活 → 再看見。`,
+voice:`繁體中文。口語、直接、溫暖、清楚、有洞察；具體 > 抽象，清楚 > 完整，洞察 > 資訊量，推進 > 堆疊。\n\n內容原則：\n・一份內容只處理一個核心命題。\n・從真實、具體、容易代入的情境切入。\n・表面問題至少往下拆一層，目標是讓讀者出現「欸，我從來沒這樣想過」。\n・不替讀者做決定；提問要能改變問題框架。\n・避免「相信自己、勇敢一點、不要害怕、你不是不夠好」等泛用安慰。\n・避免把讀者描述成壞掉、失敗、弱者或等待被拯救的人。\n・服務文案優先說「你會得到什麼／我們會一起做什麼」，避免大量使用「我不會……」。`,
+proof:`可使用的品牌證據：\n・至今陪伴超過 500 位夥伴探索自我與職涯。\n・1v1 Coaching 服務超過 55 位，並有長期陪跑經驗。\n・曾陪伴來自外商科技業（包含 Apple、Microsoft、富士康、廣達）、軍公教、新創等不同背景的學員。\n・8 年營運與行銷、7 年內容產業經驗。\n・曾經營 400+ 人付費社群、孵化近 30 位創作者。\n\n使用 Proof 時只能引用已存在的真實資料與案例，不得虛構學員數字、回饋、轉職結果或收入結果。`,
+boundaries:`Coaching 為非治療向的人生／生涯探索與成長陪伴，聚焦當下與未來的現況釐清、模式覺察、選擇與行動。\n\n轉職＆求職計畫以 Coaching 為核心，不以代改履歷、求職信或制式模擬面試為主要服務。\n\n不提供心理疾病診斷、醫療、心理治療或緊急處遇。遇到重大心理健康風險時應優先尋求合適的心理諮商或醫療資源。\n\n最終的行動選擇與人生方向由當事人自主決定。`,
+offers:`【轉職＆求職計畫】\n主要服務正在考慮轉職、求職中或面臨職涯選擇，希望釐清方向、減少內耗，並建立自己判斷與行動方式的人。\n\n完整計畫：3 個月、6 次 60 分鐘 Coaching，約每兩週一次。\n完整計畫費用：NT$18,000。\n首次深度會談：60 分鐘，原價 NT$3,200。首次會談本身即為一次完整 1v1 Coaching，也是加入完整計畫前的必要步驟；會談後再依自身狀態決定是否加入完整計畫。\n\n完整計畫包含：專屬 3 個月個人陪跑地圖、6 次 Coaching 成長軌跡。\n\n注意：優惠價格、開放日期、名額與 CTA 屬於活動資訊，只有在本區明確寫入時才能使用，不可自行沿用過期活動。`,
+archive:`歷史公開資料可能出現：生命教練、25–40 歲、400+ 陪伴、40+ 教練個案、較早期的個人品牌／身心平衡定位等。\n\n這些資料只作為品牌歷史與內容研究素材，不代表 Current Truth；START 預設不得使用此區覆蓋現在定位。`
+};
+let BRAND=JSON.parse(localStorage.getItem('glimmer_brand_brain_v9')||'null')||JSON.parse(localStorage.getItem('glimmer_brand_brain_v8')||'null')||structuredClone(BRAND_DEFAULT);
+['methodCore','clarityProcess','coachingLoop','changePhilosophy'].forEach(k=>{if(!BRAND[k]) BRAND[k]=BRAND_DEFAULT[k]});
+let CHANNEL_CUSTOM=JSON.parse(localStorage.getItem('glimmer_channel_os_v9')||localStorage.getItem('glimmer_channel_os_v8')||'{}');
+function commonFromBrand(){return `【CURRENT TRUTH】\n${BRAND.currentTruth}\n\n【AUDIENCE】\n${BRAND.audience}\n\n【WORLDVIEW】\n${BRAND.worldview}\n\n【SHARON STORY】\n${BRAND.story}\n\n【METHOD · CORE BELIEF】\n${BRAND.methodCore}\n\n【METHOD · CLARITY PROCESS】\n${BRAND.clarityProcess}\n\n【METHOD · COACHING LOOP】\n${BRAND.coachingLoop}\n\n【METHOD · CHANGE PHILOSOPHY】\n${BRAND.changePhilosophy}\n\n【VOICE & EDITORIAL RULES】\n${BRAND.voice}\n\n【PROOF】\n${BRAND.proof}\n\n【BOUNDARIES】\n${BRAND.boundaries}`}
+function activeOS(channel){return CHANNEL_CUSTOM[channel]||CHANNEL_OS[channel]||''}
+function buildPrompt(channel,material,context='START'){
+ const offerBlock=channel==='Sales'?`\n\n【CURRENT OFFERS｜只有 Sales 預設帶入】\n${BRAND.offers}`:'';
+ return `你是《微光前行》的內容總編輯，不是通用文案生成器。請保留 Sharon 的觀點，並依媒介本身的閱讀／觀看行為重新設計內容。不同渠道不可只換格式或字數。\n\n${commonFromBrand()}${offerBlock}\n\n【本次渠道】\n${channel}\n\n${activeOS(channel)}\n\n【本次工作模式】\n${context}\n\n【本次素材】\n${material}\n\n請完整執行上述 Editorial Task。分析完成後不要停下來，必須繼續交付 Final Deliverable 所要求的「完整內容」。`;
 }
-tick(); setInterval(tick,1000);
-</script>
+function initBrandBrain(){
+ document.querySelectorAll('[data-brand]').forEach(el=>{el.value=BRAND[el.dataset.brand]||'';el.addEventListener('input',()=>document.getElementById('brainSaveState').textContent='有尚未儲存的修改')});
+ const sel=document.getElementById('osSelect'); sel.innerHTML=CHANNELS.map(x=>`<option>${x}</option>`).join(''); sel.onchange=renderOSEditor; document.getElementById('osText').addEventListener('input',()=>document.getElementById('brainSaveState').textContent='有尚未儲存的修改'); renderOSEditor();
+ document.querySelectorAll('.brain-tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.brain-tab').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.brain-panel').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById('brain-'+b.dataset.brain).classList.add('active')});
+}
+function renderOSEditor(){const ch=document.getElementById('osSelect').value||'Reels';document.getElementById('osTitle').textContent=ch+' Channel OS';document.getElementById('osText').value=activeOS(ch)}
+function saveBrandBrain(){document.querySelectorAll('[data-brand]').forEach(el=>BRAND[el.dataset.brand]=el.value.trim());const ch=document.getElementById('osSelect').value;if(ch)CHANNEL_CUSTOM[ch]=document.getElementById('osText').value.trim();localStorage.setItem('glimmer_brand_brain_v9',JSON.stringify(BRAND));localStorage.setItem('glimmer_channel_os_v9',JSON.stringify(CHANNEL_CUSTOM));document.getElementById('brainSaveState').textContent='已儲存；之後的 Prompt 會使用最新版';}
+function resetBrandBrain(){if(!confirm('要恢復 v9 預設 Brand Brain 嗎？你目前的修改會被取代。'))return;BRAND=structuredClone(BRAND_DEFAULT);CHANNEL_CUSTOM={};localStorage.setItem('glimmer_brand_brain_v9',JSON.stringify(BRAND));localStorage.removeItem('glimmer_channel_os_v9');document.querySelectorAll('[data-brand]').forEach(el=>el.value=BRAND[el.dataset.brand]||'');renderOSEditor();document.getElementById('brainSaveState').textContent='已恢復預設';}
 
-<script>
-(function(){
-  const grid = document.querySelector('.testimonials .testimonial-grid');
-  const cards = grid ? Array.from(grid.querySelectorAll('.testimonial-card')) : [];
-  const dots = Array.from(document.querySelectorAll('.testimonial-dot'));
-  if(!grid || !cards.length || !dots.length) return;
+const LIB=[
+{id:'a1',type:'Insight',title:'害怕選錯，所以乾脆不選',body:'真正需要處理的可能不是選哪一個，而是如何面對選擇後的不確定。',tags:['選擇焦慮','轉職','自我覺察']},
+{id:'a2',type:'Insight',title:'建立自己的判斷標準',body:'答案不是每次都由別人提供，而是逐漸知道自己如何判斷。',tags:['Coaching','決策','自我覺察']},
+{id:'a3',type:'Content',title:'如果你正在考慮轉職，我反而不建議你繼續問別人該怎麼做',body:'問更多意見有時不會讓人更確定，反而讓自己的聲音更難被聽見。',tags:['轉職','選擇焦慮']},
+{id:'a4',type:'Insight',title:'工作做久了，越不知道自己厲害在哪',body:'熟練之後，很多能力會變得理所當然，因此更難被自己辨識。',tags:['自我價值','職涯','工作無感']},
+{id:'a5',type:'Content',title:'明明想改變，卻一直停在原地',body:'知道問題與能夠行動之間，往往還隔著對未知與後果的承擔。',tags:['行動','轉職','自我懷疑']}
+];
+let cal=JSON.parse(localStorage.getItem('glimmer_v5_calendar')||'[]'), editId=null, tags=[], view=new Date(2026,8,1), discoverKind='Workshop', selectedStart='Reels', selectedExpand='Carousel', selectedExpandItem=null;
+function persist(){localStorage.setItem('glimmer_v5_calendar',JSON.stringify(cal))}
+function nav(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===id));document.getElementById(id).classList.add('active');scrollTo(0,0)}
+document.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>nav(b.dataset.page));
+function channelButtons(el,selected,cb){el.innerHTML=CHANNELS.map(x=>`<button class="channel ${x===selected?'selected':''}" data-v="${x}">${x}</button>`).join('');el.querySelectorAll('button').forEach(b=>b.onclick=()=>{el.querySelectorAll('button').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');cb(b.dataset.v)})}
+channelButtons(document.getElementById('startChannels'),selectedStart,v=>selectedStart=v);channelButtons(document.getElementById('expandChannels'),selectedExpand,v=>selectedExpand=v);
+document.getElementById('calType').innerHTML=CHANNELS.map(x=>`<option>${x}</option>`).join('');
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.pane').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById(b.dataset.pane).classList.add('active')});
+document.querySelectorAll('#discoverKinds button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#discoverKinds button').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');discoverKind=b.dataset.kind;document.getElementById('discoverResults').innerHTML=''});
+function voiceDemo(){alert('正式版可優先使用瀏覽器語音轉文字；這個 HTML 預覽先保留入口。')}
+function goLibrary(){nav('library')}
+function prompt(title,text){document.getElementById('promptTitle').textContent=title;document.getElementById('promptText').textContent=text;document.getElementById('promptModal').classList.add('open')}
+function makeStartPrompt(){let raw=document.getElementById('startRaw').value.trim();if(!raw)return alert('先輸入一點內容。');prompt(`${selectedStart}｜完整 ChatGPT 指令`,buildPrompt(selectedStart,raw,'START｜從零發展一則內容'))}
+function discoverTopics(){let r=document.getElementById('discoverResults');if(discoverKind==='Workshop')r.innerHTML=ideaHTML('Workshop','我到底該怎麼選？','把「害怕選錯」「不選擇作為安全」「建立判斷標準」組成一場可實作的深度活動。',['a1','a2','a3']);else r.innerHTML=ideaHTML('Live Talk','如果不用保證選對，你還會這麼難做決定嗎？','這組內容有高共鳴、個人經驗分享空間，也容易設計聊天室文字互動。',['a1','a3','a5'])}
+function ideaHTML(kind,title,why,ids){return `<div class="idea"><b>${kind} 主題候選｜${title}</b><p>${why}</p><small>來源：${ids.map(id=>LIB.find(x=>x.id===id).tags[0]).map(x=>'#'+x).join(' ')}</small><div class="actions"><button class="btn" onclick='showSources(${JSON.stringify(ids)})'>看來源內容</button><button class="btn primary" onclick='develop("${kind}","${title}",${JSON.stringify(ids)})'>發展 ${kind} →</button></div></div>`}
+function showSources(ids){let items=ids.map(id=>LIB.find(x=>x.id===id));document.getElementById('drawerContent').innerHTML=`<div class="eyebrow">LIBRARY SOURCES</div><h2>這個題目從哪裡長出來？</h2><p class="lead">不是只看 Hashtag，而是回到實際內容確認共同母題。</p>${items.map(x=>`<div class="idea"><small>${x.type}</small><h3>${x.title}</h3><p>${x.body}</p><div class="tags">${x.tags.map(t=>`<span class="chip">#${t}</span>`).join('')}</div></div>`).join('')}`;document.getElementById('drawerBack').classList.add('open')}
+function closeDrawer(){document.getElementById('drawerBack').classList.remove('open')}
+function develop(kind,title,ids){
+  const sources=ids.map(id=>LIB.find(x=>x.id===id))
+    .map(x=>'- '+x.title+'：'+x.body).join('\n');
+  const material='【推薦主題】'+title+'\n\n【定位】這是與粉絲深度互動、建立信任的低價服務。\n\n【Library 來源】\n'+sources+'\n\n請保留來源共同母題，不要憑空改造成無關主題。';
+  prompt(kind+'｜完整企劃指令',buildPrompt(kind,material,'DISCOVER｜從 Content Brain 發展深度互動主題'));
+}
+function renderExpand(){let q=document.getElementById('expandSearch').value.toLowerCase();let m=LIB.filter(x=>(x.title+x.body+x.tags.join(' ')).toLowerCase().includes(q));document.getElementById('expandMatches').innerHTML=m.map(x=>`<div class="item"><div><b>${x.title}</b><br><small>${x.tags.map(t=>'#'+t).join(' ')}</small></div><button class="btn" onclick="selectedExpandItem='${x.id}';renderExpand()">選擇</button></div>`).join('')+(selectedExpandItem?`<div class="notice">已選：${LIB.find(x=>x.id===selectedExpandItem).title}</div>`:'')}
+document.getElementById('expandSearch').oninput=renderExpand;renderExpand();
+function makeExpandPrompt(){if(!selectedExpandItem)return alert('先選一個 Library 內容。');let x=LIB.find(y=>y.id===selectedExpandItem);prompt(`EXPAND → ${selectedExpand}`,buildPrompt(selectedExpand,`【Library 來源】\n${x.title}\n${x.body}\n${x.tags.map(t=>'#'+t).join(' ')}\n\n先指出必須保留的核心 Insight；重新設計媒介表現，不可只改字數或格式。`,'EXPAND｜內容裂變'))}
+let synthSelectedIds=[],synthType='全部';
+function renderSynthTypes(){
+ const types=['全部',...new Set(LIB.map(x=>x.type))];
+ const el=document.getElementById('synthTypes');
+ if(!el)return;
+ el.innerHTML=types.map(t=>`<button class="chip ${t===synthType?'active':''}" onclick="synthType='${t}';renderSynthTypes();renderSynth()">${t}</button>`).join('');
+}
+function toggleSynth(id){
+ if(synthSelectedIds.includes(id)) synthSelectedIds=synthSelectedIds.filter(x=>x!==id);
+ else {
+   if(synthSelectedIds.length>=10){alert('一次最多選 10 個內容。');return;}
+   synthSelectedIds.push(id);
+ }
+ renderSynth();
+}
+function removeSynth(id){synthSelectedIds=synthSelectedIds.filter(x=>x!==id);renderSynth()}
+function renderSynth(){
+ const el=document.getElementById('synthList'); if(!el)return;
+ const q=(document.getElementById('synthSearch')?.value||'').trim().toLowerCase().replace(/^#/,'');
+ let rows=LIB.filter(x=>(synthType==='全部'||x.type===synthType)&&(!q||(x.title+' '+x.body+' '+x.tags.join(' ')).toLowerCase().includes(q)));
+ el.innerHTML=rows.length?rows.map(x=>`<label class="synth-row"><input type="checkbox" ${synthSelectedIds.includes(x.id)?'checked':''} onchange="toggleSynth('${x.id}')"><div><div class="synth-title">${x.title}</div><div class="synth-meta">${x.type} · ${x.tags.map(t=>'#'+t).join(' ')}</div></div></label>`).join(''):`<div class="notice">找不到符合條件的 Library 內容。</div>`;
+ const selected=synthSelectedIds.map(id=>LIB.find(x=>x.id===id)).filter(Boolean);
+ const box=document.getElementById('synthSelected');
+ box.className='selected-box '+(selected.length?'show':'');
+ box.innerHTML=selected.length?`<b>已選擇 ${selected.length} 個內容</b><div class="selected-chips">${selected.map(x=>`<span class="selected-chip">${x.title}<button onclick="removeSynth('${x.id}')">×</button></span>`).join('')}</div>`:'';
+ document.getElementById('synthCount').textContent=selected.length?`已選 ${selected.length}/10；至少需要 2 個`:'至少選 2 個，最多 10 個';
+ document.getElementById('synthBtn').style.opacity=selected.length>=2?'1':'.45';
+}
+document.getElementById('synthSearch')?.addEventListener('input',renderSynth);
+renderSynthTypes();renderSynth();
+function makeSynthPrompt(){
+ if(synthSelectedIds.length<2)return alert('SYNTHESIZE 至少需要選 2 個內容；如果只有一個，請使用 EXPAND。');
+ const selected=synthSelectedIds.map(id=>LIB.find(x=>x.id===id)).filter(Boolean);
+ const material=selected.map(x=>`- [${x.type}] ${x.title}
+  ${x.body}
+  ${x.tags.map(t=>'#'+t).join(' ')}`).join('\n\n');
+ prompt('SYNTHESIZE｜共同母題分析',`你是《微光前行》的內容總編輯。
 
-  function setActive(index){
-    dots.forEach((dot,i)=>dot.classList.toggle('is-active', i===index));
-  }
+以下是 Sharon 主動從 Library 選出的 ${selected.length} 個既有內容／Insights：
 
-  function updateActive(){
-    const center = grid.scrollLeft + grid.clientWidth / 2;
-    let best = 0;
-    let min = Infinity;
-    cards.forEach((card,i)=>{
-      const cardCenter = card.offsetLeft + card.offsetWidth / 2;
-      const dist = Math.abs(cardCenter - center);
-      if(dist < min){ min = dist; best = i; }
-    });
-    setActive(best);
-  }
+${material}
 
-  let raf;
-  grid.addEventListener('scroll', ()=>{
-    cancelAnimationFrame(raf);
-    raf = requestAnimationFrame(updateActive);
-  }, {passive:true});
+【任務】
+1. 不要只用共同 Hashtag 分類；找出它們在心理機制、讀者處境、核心矛盾或 Sharon 觀點上真正共享的更高一層母題。
+2. 提出 3 個可能的共同母題，每個母題用一句話說清楚核心命題。
+3. 說明每個母題如何連回以上來源，而不是憑空延伸。
+4. 對每個母題提出最適合發展的較大型內容方向，例如 Podcast、Workshop、Live Talk 或長文，說明為什麼。
+5. 最後不要替 Sharon 選唯一答案；讓 Sharon 決定下一步要發展哪個母題。`);
+}
+function renderCalendar(){let y=view.getFullYear(),m=view.getMonth();document.getElementById('monthTitle').textContent=`${y} 年 ${m+1} 月`;let first=new Date(y,m,1).getDay(),days=new Date(y,m+1,0).getDate(),prev=new Date(y,m,0).getDate(),cells='';for(let i=0;i<42;i++){let d=i-first+1,cy=y,cm=m,out=false;if(d<1){d=prev+d;cm=m-1;out=true;if(cm<0){cm=11;cy--}}else if(d>days){d-=days;cm=m+1;out=true;if(cm>11){cm=0;cy++}}let ds=`${cy}-${String(cm+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`,events=cal.filter(e=>e.date===ds);cells+=`<div class="day ${out?'out':''}"><span class="daynum">${d}</span>${out?'':`<button class="addday" onclick="openCalendar('${ds}')">＋</button>`}${events.map(e=>`<div class="event" onclick="editCalendar('${e.id}')"><b>${e.type}</b><br>${e.title}<br><small>${e.tags.map(t=>'#'+t).join(' ')}</small></div>`).join('')}</div>`}document.getElementById('calendarGrid').innerHTML=cells}
+function moveMonth(n){view=new Date(view.getFullYear(),view.getMonth()+n,1);renderCalendar()}
+function openCalendar(date){editId=null;tags=[];document.getElementById('calModalTitle').textContent='新增 Calendar 內容';document.getElementById('calDate').value=date||new Date().toISOString().slice(0,10);document.getElementById('calTitle').value='';document.getElementById('calBody').value='';document.getElementById('calNote').value='';document.getElementById('publishBtn').classList.add('hidden');document.getElementById('deleteBtn').classList.add('hidden');renderTags();document.getElementById('calModal').classList.add('open')}
+function editCalendar(id){let e=cal.find(x=>x.id===id);editId=id;tags=[...e.tags];document.getElementById('calModalTitle').textContent='編輯 Calendar 內容';document.getElementById('calDate').value=e.date;document.getElementById('calTitle').value=e.title;document.getElementById('calType').value=e.type;document.getElementById('calBody').value=e.body||'';document.getElementById('calNote').value=e.note||'';document.getElementById('publishBtn').classList.remove('hidden');document.getElementById('deleteBtn').classList.remove('hidden');renderTags();document.getElementById('calModal').classList.add('open')}
+function saveCalendar(){let title=document.getElementById('calTitle').value.trim();if(!title)return alert('請輸入主題。');let data={id:editId||Date.now().toString(),date:document.getElementById('calDate').value,title,type:document.getElementById('calType').value,body:document.getElementById('calBody').value,tags:[...tags],note:document.getElementById('calNote').value};if(editId)cal=cal.map(x=>x.id===editId?data:x);else cal.push(data);persist();closeModal('calModal');renderCalendar()}
+function deleteCalendar(){if(confirm('刪除這則 Calendar 內容？')){cal=cal.filter(x=>x.id!==editId);persist();closeModal('calModal');renderCalendar()}}
+const GOOGLE_SHEET_WEB_APP='https://script.google.com/macros/s/AKfycbwmOPAvWE1N8HKBbOSW3zvzhZBAlrXjyeG1iCd9KE3G-yqAC4Rq6_kCxf9nxWKn3eZuJA/exec';
+async function publishCalendar(){
+ let e=cal.find(x=>x.id===editId);if(!e)return alert('找不到這則 Calendar 內容。');
+ let title=document.getElementById('calTitle').value.trim(),type=document.getElementById('calType').value,body=document.getElementById('calBody').value.trim();
+ if(!title)return alert('發布前請輸入主題。');if(!body)return alert('發布前請貼入最終內文。');
+ let hashtags=tags.map(t=>'#'+t).join(' ');
+ let ok=confirm(`確認這是已正式發布的最終版本嗎？\n\n主題：${title}\n媒介形式：${type}\nHashtag：${hashtags||'（無）'}\n\n確認後會送進 Google Sheet Published Archive。`);
+ if(!ok)return;
+ const btn=document.getElementById('publishBtn'),oldText=btn.textContent;btn.disabled=true;btn.textContent='傳送中…';
+ try{
+   await fetch(GOOGLE_SHEET_WEB_APP,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({topic:title,medium:type,content:body,hashtags})});
+   // no-cors 可送出資料，但瀏覽器無法讀取 Apps Script 的回應，因此不假裝已取得伺服器成功確認。
+   e.title=title;e.type=type;e.body=body;e.tags=[...tags];e.publishedAt=new Date().toISOString();persist();renderCalendar();
+   alert('✨ 已送出到 Google Sheet Published Archive！\n\n因瀏覽器安全限制，網站無法直接讀取 Google 的成功回應。第一次使用請打開 Sheet，確認底部新增了一列。');
+   closeModal('calModal');
+ }catch(err){
+   alert('目前無法送出 Google Sheet。請確認網路連線與 Apps Script 部署設定後再試一次。');
+ }finally{btn.disabled=false;btn.textContent=oldText;}
+}
+function closeModal(id){document.getElementById(id).classList.remove('open')}
+function addTag(t){t=(t||'').replace(/^#/,'').trim();if(t&&!tags.includes(t)){tags.push(t);renderTags()}}
+function removeTag(t){tags=tags.filter(x=>x!==t);renderTags()}
+function renderTags(){let box=document.getElementById('tagbox'),inp=document.getElementById('tagInput');box.querySelectorAll('.tagtoken').forEach(x=>x.remove());tags.forEach(t=>{let s=document.createElement('span');s.className='tagtoken';s.innerHTML=`#${t} <button onclick="removeTag('${t}')">×</button>`;box.insertBefore(s,inp)});let all=[...new Set(LIB.flatMap(x=>x.tags))];document.getElementById('tagSuggest').innerHTML=all.slice(0,8).map(t=>`<button onclick="addTag('${t}')">#${t}</button>`).join('')}
+document.getElementById('tagInput').onkeydown=e=>{if(e.key==='Enter'||e.key===','){e.preventDefault();addTag(e.target.value);e.target.value=''}};
+function renderLibrary(){let q=document.getElementById('libSearch').value.toLowerCase();let rows=LIB.filter(x=>(x.title+x.body+x.tags.join(' ')).toLowerCase().includes(q));document.getElementById('libraryList').innerHTML=rows.map(x=>`<div class="item"><div class="item-main"><small>${x.type}</small><b>${x.title}</b><span class="item-desc">${x.body}</span><div class="item-tags">${x.tags.map(t=>`<span class="chip">#${t}</span>`).join('')}</div></div><div class="item-action"><button class="btn" onclick="useInStart('${x.id}')">帶入 START</button></div></div>`).join('')}
+function initTagFilters(){let all=[...new Set(LIB.flatMap(x=>x.tags))];document.getElementById('tagFilters').innerHTML=all.map(t=>`<button class="chip" onclick="document.getElementById('libSearch').value='#${t}'.replace('#','');renderLibrary()">#${t}</button>`).join('')}initTagFilters();renderLibrary();
+function useInStart(id){let x=LIB.find(y=>y.id===id);document.getElementById('startRaw').value=`${x.title}\n\n${x.body}`;nav('start')}
+function makeResearchPrompt(){let raw=document.getElementById('researchRaw').value.trim();if(!raw)return alert('先輸入研究題目。');prompt('AI Research｜ChatGPT 指令',`請針對以下題目進行網路研究：${raw}\n\n優先尋找：真實案例與故事、報導與專題、心理學／哲學／Coaching 思想框架、Books & Thinkers、可驗證 Quotes。不要硬湊五類。理論只作為理解框架，不當作證明；統計需確認來源；Quote 無法驗證就不要用直接引言；同時找限制與反例。最後說明哪些資料最適合連回《微光前行》的既有觀點。`)}
+function copyPrompt(){navigator.clipboard?.writeText(document.getElementById('promptText').textContent).then(()=>alert('已複製。')).catch(()=>alert('瀏覽器未允許自動複製，請手動選取文字。'))}
+function exportBackup(){let blob=new Blob([JSON.stringify({calendar:cal,library:LIB,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='glimmer-content-brain-backup.json';a.click();URL.revokeObjectURL(a.href)}
+document.getElementById('backupFile').onchange=e=>{let f=e.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{let d=JSON.parse(r.result);if(Array.isArray(d.calendar)){cal=d.calendar;persist();renderCalendar();alert('Calendar Backup 已還原。')}}catch{alert('Backup 檔案格式無法讀取。')}};r.readAsText(f)}
+renderCalendar();
 
-  dots.forEach((dot,i)=>{
-    dot.addEventListener('click', ()=>{
-      grid.scrollTo({
-        left: cards[i].offsetLeft - grid.offsetLeft,
-        behavior:'smooth'
-      });
-    });
-  });
-
-  updateActive();
-})();
-</script>
-
-</body>
-</html>
+initBrandBrain();
+</script></body></html>
